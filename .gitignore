@@ -1,4 +1,5 @@
 .env
 .deta
+.venv
 node_modules
 notes.txt

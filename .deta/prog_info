@@ -1,0 +1,1 @@
+{"id":"489acd28-ffe9-4740-8046-793eb2cd2fe2","space":49665,"runtime":"nodejs14.x","name":"services","path":"ssmwe8","project":"a05sa4uk","account":"144798365827","region":"eu-central-1","deps":["express@^4.18.2"],"envs":null,"public":true,"log_level":"off","cron":""}

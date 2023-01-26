@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "export NODE_ENV=test && nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/kubero-dev/services#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
     "deta": "^1.1.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

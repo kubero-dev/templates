@@ -1,19 +1,33 @@
 const express = require('express')
 const app = express()
+const YAML = require('yaml')
 
+var services = [];
 
-app.get('/', (req, res) => res.send('Hello World!'))
+// Load services from github on startup
+const https = require('https');
+const url = "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/index.yaml"
+https.get(url, (resp) => {
+    let data = '';
+    resp.on('data', (chunk) => {
+        data += chunk;
+    });
+    resp.on('end', () => {
+        services = YAML.parse(data);
+    });
+}).on("error", (err) => {
+    console.log("Error: " + err.message);
+});
 
-if (process.env.NODE_ENV !== 'test') {
+// GET / - return list of services
+app.get('/', (req, res) => {
+    console.log(req.headers['x-forwarded-for'], req.headers['user-agent'])
+    res.json(services)
+})
+
+module.exports = app
+
+// Local testing
+if (process.env.NODE_ENV == 'test') {
   app.listen(3000, () => console.log('Example app listening on port 3000!'))
 }
-
-/*
-const http = require('http');
-const server = http.createServer(app);
-const port = 3000;
-server.listen(port, () => console.log(`Example app listening on port ${port}!`));
-*/
-
-// export 'app'
-module.exports = app

@@ -10,7 +10,7 @@ basedir = "/Users/carafagi/workdir/kubero-dev/kubero/services/"
 data = {
     "services": []
 }
-# find al directories in the current directory and iterate over them
+# find all directories in the current directory and iterate over them
 for dirname in os.listdir(basedir):
     dir = os.path.join(basedir, dirname)
     filepath = os.path.join(dir, "service.yaml")

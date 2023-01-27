@@ -3,23 +3,6 @@ const app = express()
 
 var services = [];
 
-/*
-// Load services from github on startup
-const https = require('https');
-const url = "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/index.yaml"
-https.get(url, (resp) => {
-    let data = '';
-    resp.on('data', (chunk) => {
-        data += chunk;
-    });
-    resp.on('end', () => {
-        services = YAML.parse(data);
-    });
-}).on("error", (err) => {
-    console.log("Error: " + err.message);
-});
-*/
-
 // load services from local json file
 const fs = require('fs');
 const path = require('path');

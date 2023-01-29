@@ -42,6 +42,7 @@ for dirname in os.listdir(basedir):
                 content["size"] = apiData.get("size")
                 content["language"] = apiData.get("language")
                 content["license"] = apiData.get("license").get("name")
+                content["spdx_id"] = apiData.get("license").get("spdx_id")
 
 
             data.get("services").append(content)

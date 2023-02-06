@@ -6,7 +6,7 @@ import requests
 
 # create a new file called index.yaml
 open("index.json", "w+")
-basedir = "/Users/carafagi/workdir/kubero-dev/kubero/services/"
+basedir = "/Users/carafagi/workdir/kubero-dev/kubero-services-temp/services/"
 
 data = {
     "services": []

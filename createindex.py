@@ -10,6 +10,9 @@ basedir = "/Users/carafagi/workdir/kubero-dev/kubero-service-base/services/"
 data = {
     "services": []
 }
+
+GH_Token = os.environ.get("GH_TOKEN")
+
 # find all directories in the current directory and iterate over them
 for dirname in os.listdir(basedir):
     dir = os.path.join(basedir, dirname)
@@ -29,26 +32,39 @@ for dirname in os.listdir(basedir):
             if content.get("source").find("github.com") != -1:
                 # replace url with api url
                 apiURL = content["source"].replace("github.com", "api.github.com/repos")
+                headers = {'Authorization': 'token ' + GH_Token}
+
                 # call the api and get the stars
-                apiData = requests.get(apiURL).json()
+                apiData = requests.get(apiURL, headers=headers).json()
 
                 if apiData.get("message"):
                     print(apiData.get("message"))
                     print(apiData)
-                    exit(1)
-                content["stars"] = apiData.get("stargazers_count")
-                content["forks"] = apiData.get("forks_count")
-                content["watchers"] = apiData.get("watchers_count")
-                content["issues"] = apiData.get("open_issues_count")
-                content["last_updated"] = apiData.get("updated_at")
-                content["last_pushed"] = apiData.get("pushed_at")
-                content["created_at"] = apiData.get("created_at")
-                content["size"] = apiData.get("size")
-                content["language"] = apiData.get("language")
-                content["license"] = apiData.get("license").get("name")
-                content["spdx_id"] = apiData.get("license").get("spdx_id")
-                content["dirname"] = dirname
+                    exit(1) # make sure index.json is not overwritten
+                try: 
+                    content["stars"] = apiData.get("stargazers_count")
+                    content["forks"] = apiData.get("forks_count")
+                    content["watchers"] = apiData.get("watchers_count")
+                    content["issues"] = apiData.get("open_issues_count")
+                    content["last_updated"] = apiData.get("updated_at")
+                    content["last_pushed"] = apiData.get("pushed_at")
+                    content["created_at"] = apiData.get("created_at")
+                    content["size"] = apiData.get("size")
+                    content["language"] = apiData.get("language")
 
+                    license = apiData.get("license")
+                    # some repos don't have a license (laravel)
+                    if license:
+                        content["license"] = license.get("name")
+                        content["spdx_id"] = license.get("spdx_id")
+                    else:
+                        content["license"] = "Unknown"
+                        content["spdx_id"] = "-"
+
+                    content["dirname"] = dirname
+                except:
+                    print("Error: ", apiData)
+                    continue
 
             data.get("services").append(content)
 

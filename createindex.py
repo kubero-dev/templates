@@ -21,6 +21,17 @@ for dirname in os.listdir(basedir):
     # check if app.yaml exists in the directory
     if os.path.isfile(filepath) and os.path.isfile(apppath):
         print (filepath)
+
+        with open(apppath, "r") as app_yaml:
+            app = app_yaml.read()
+            # convert yaml to json
+            app = yaml.safe_load(app)
+            # write the json to the index.yaml file
+
+            gitops = False
+            if app.get('spec').get('deploymentstrategy') == 'git':
+                gitops = True
+                
         # if not, skip to the next directory
         with open(filepath, "r") as service_yaml:
             content = service_yaml.read()
@@ -51,6 +62,7 @@ for dirname in os.listdir(basedir):
                     content["created_at"] = apiData.get("created_at")
                     content["size"] = apiData.get("size")
                     content["language"] = apiData.get("language")
+                    content["gitops"] = gitops
 
                     license = apiData.get("license")
                     # some repos don't have a license (laravel)

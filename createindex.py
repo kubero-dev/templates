@@ -94,8 +94,8 @@ for dirname in os.listdir(basedir):
     #print(data)
     #exit(1)
 
-# sort data by last_updated
-data["services"] = sorted(data["services"], key=lambda k: k['last_updated'], reverse=True)
+# sort data by last_pushed
+data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reverse=True)
 
 open("index.json", "w+")
 with open("index.json", "a+") as index_json:

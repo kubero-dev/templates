@@ -3,6 +3,7 @@ import os
 import yaml
 import json
 import requests
+from datetime import datetime
 
 # create a new file called index.yaml
 basedir = "kubero/services"
@@ -64,6 +65,17 @@ for dirname in os.listdir(basedir):
                     content["language"] = apiData.get("language")
                     content["gitops"] = gitops
 
+                    # calculate date since last update
+                    days = (datetime.now() - datetime.strptime(content["last_updated"], "%Y-%m-%dT%H:%M:%SZ")).days
+
+                    content["status"] = "active"
+                    if days > 182:
+                        content["status"] = "inactive"
+                    if days > 365:
+                        content["status"] = "abandoned"
+                    if days > 730:
+                        content["status"] = "archived"
+
                     license = apiData.get("license")
                     # some repos don't have a license (laravel)
                     if license:
@@ -74,11 +86,16 @@ for dirname in os.listdir(basedir):
                         content["spdx_id"] = "-"
 
                     content["dirname"] = dirname
-                except:
-                    print("Error: ", apiData)
+                except Exception as e:
+                    print("Error: ", e)
                     continue
 
             data.get("services").append(content)
+    #print(data)
+    #exit(1)
+
+# sort data by last_updated
+data["services"] = sorted(data["services"], key=lambda k: k['last_updated'], reverse=True)
 
 open("index.json", "w+")
 with open("index.json", "a+") as index_json:

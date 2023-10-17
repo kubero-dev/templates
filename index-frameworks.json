@@ -1,0 +1,56 @@
+{
+  "services": [
+    {
+      "name": "Symfony",
+      "description": "Symfony is a PHP framework for web and console applications and a set of reusable PHP components.",
+      "tags": [
+        "framework",
+        "php"
+      ],
+      "source": "https://github.com/symfony/symfony",
+      "website": "https://symfony.com",
+      "icon": "https://avatars.githubusercontent.com/u/143937?s=200&v=4",
+      "screenshots": null,
+      "stars": 28778,
+      "forks": 9288,
+      "watchers": 28778,
+      "issues": 782,
+      "last_updated": "2023-10-13T06:20:55Z",
+      "last_pushed": "2023-10-13T05:35:01Z",
+      "created_at": "2010-01-04T14:21:21Z",
+      "size": 251600,
+      "language": "PHP",
+      "gitops": true,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "symfony"
+    },
+    {
+      "name": "Laravel",
+      "description": "Laravel is a web application framework with expressive, elegant syntax.",
+      "tags": [
+        "framework",
+        "php"
+      ],
+      "source": "https://github.com/laravel/laravel",
+      "website": "https://laravel.com",
+      "icon": "https://avatars.githubusercontent.com/u/958072?s=200&v=4",
+      "screenshots": null,
+      "stars": 74933,
+      "forks": 24025,
+      "watchers": 74933,
+      "issues": 31,
+      "last_updated": "2023-10-13T04:47:46Z",
+      "last_pushed": "2023-10-12T14:41:29Z",
+      "created_at": "2011-06-08T03:06:08Z",
+      "size": 10694,
+      "language": "PHP",
+      "gitops": true,
+      "status": "active",
+      "license": "Unknown",
+      "spdx_id": "-",
+      "dirname": "laravel"
+    }
+  ]
+}

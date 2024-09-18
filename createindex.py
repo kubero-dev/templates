@@ -14,6 +14,8 @@ data = {
 
 GH_Token = os.environ.get("GH_TOKEN")
 
+totalTemplates = 0
+
 # find all directories in the current directory and iterate over them
 for dirname in os.listdir(basedir):
     dir = os.path.join(basedir, dirname)
@@ -22,6 +24,7 @@ for dirname in os.listdir(basedir):
     # check if app.yaml exists in the directory
     if os.path.isfile(filepath) and os.path.isfile(apppath):
         print (filepath)
+        totalTemplates += 1
 
         with open(apppath, "r") as app_yaml:
             app = app_yaml.read()
@@ -93,6 +96,8 @@ for dirname in os.listdir(basedir):
             data.get("services").append(content)
     #print(data)
     #exit(1)
+
+print("Total Templates: ", totalTemplates)
 
 # sort data by last_pushed
 data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reverse=True)

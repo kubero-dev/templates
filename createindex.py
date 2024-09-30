@@ -104,6 +104,6 @@ data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reve
 
 open("index.json", "w+")
 with open("index.json", "a+") as index_json:
-    contentjson = json.dumps(data)
+    contentjson = json.dumps(data, indent=2)
     index_json.write(contentjson)
 exit(0)

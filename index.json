@@ -1,31 +1,31 @@
 {
   "services": [
     {
-      "name": "Unleash",
-      "description": "Unleash is an open source feature management solution.",
+      "name": "cal.com",
+      "description": "The open source Calendly alternative. You are in charge of your own data, workflow and appearance",
       "tags": [
-        "feature-toggle"
+        "calendar"
       ],
-      "source": "https://github.com/Unleash/unleash",
-      "website": "https://getunleash.io/",
-      "icon": "https://avatars.githubusercontent.com/u/23053233?s=200&v=4",
+      "source": "https://github.com/calcom/cal.com",
+      "website": "https://cal.com/",
+      "icon": "https://avatars.githubusercontent.com/u/79145102?s=200&v=4",
       "screenshots": [
-        "https://raw.githubusercontent.com/Unleash/unleash/main/.github/github_online_demo.svg"
+        "https://user-images.githubusercontent.com/8019099/176390354-f1bc7069-0341-437a-9bb8-eb41092b4016.gif"
       ],
-      "stars": 11101,
-      "forks": 695,
-      "watchers": 11101,
-      "issues": 46,
-      "last_updated": "2024-10-08T15:33:53Z",
-      "last_pushed": "2024-10-08T15:36:40Z",
-      "created_at": "2014-09-29T12:50:46Z",
-      "size": 241947,
+      "stars": 31754,
+      "forks": 7735,
+      "watchers": 31754,
+      "issues": 888,
+      "last_updated": "2024-10-08T15:42:38Z",
+      "last_pushed": "2024-10-08T15:46:13Z",
+      "created_at": "2021-03-22T13:47:42Z",
+      "size": 507386,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "unleash"
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "calcom"
     },
     {
       "name": "n8n",
@@ -44,9 +44,9 @@
       "stars": 46739,
       "forks": 6789,
       "watchers": 46739,
-      "issues": 395,
+      "issues": 396,
       "last_updated": "2024-10-08T14:55:50Z",
-      "last_pushed": "2024-10-08T15:36:32Z",
+      "last_pushed": "2024-10-08T15:46:08Z",
       "created_at": "2019-06-22T09:24:21Z",
       "size": 174532,
       "language": "TypeScript",
@@ -57,31 +57,34 @@
       "dirname": "n8n"
     },
     {
-      "name": "cal.com",
-      "description": "The open source Calendly alternative. You are in charge of your own data, workflow and appearance",
+      "name": "Grafana",
+      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
       "tags": [
-        "calendar"
+        "monitoring",
+        "metrics",
+        "dashboard"
       ],
-      "source": "https://github.com/calcom/cal.com",
-      "website": "https://cal.com/",
-      "icon": "https://avatars.githubusercontent.com/u/79145102?s=200&v=4",
+      "source": "https://github.com/grafana/grafana",
+      "website": "https://grafana.com/",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
       "screenshots": [
-        "https://user-images.githubusercontent.com/8019099/176390354-f1bc7069-0341-437a-9bb8-eb41092b4016.gif"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
       ],
-      "stars": 31754,
-      "forks": 7735,
-      "watchers": 31754,
-      "issues": 889,
-      "last_updated": "2024-10-08T15:36:22Z",
-      "last_pushed": "2024-10-08T15:36:18Z",
-      "created_at": "2021-03-22T13:47:42Z",
-      "size": 507386,
+      "stars": 64284,
+      "forks": 12026,
+      "watchers": 64284,
+      "issues": 4152,
+      "last_updated": "2024-10-08T15:38:02Z",
+      "last_pushed": "2024-10-08T15:45:57Z",
+      "created_at": "2013-12-11T15:59:56Z",
+      "size": 1168534,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "calcom"
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "grafana"
     },
     {
       "name": "Rocket.Chat",
@@ -101,7 +104,7 @@
       "watchers": 40241,
       "issues": 3162,
       "last_updated": "2024-10-08T15:32:46Z",
-      "last_pushed": "2024-10-08T15:35:56Z",
+      "last_pushed": "2024-10-08T15:44:37Z",
       "created_at": "2015-05-19T07:36:09Z",
       "size": 968529,
       "language": "TypeScript",
@@ -112,29 +115,59 @@
       "dirname": "rocketchat"
     },
     {
-      "name": "RSSHub",
-      "description": "RSSHub is an open source, easy to use, and extensible RSS feed generator. It is capable of generating RSS feeds from pretty much everything.",
+      "name": "MiroTalk P2P",
+      "description": "WebRTC - P2P - Simple, Secure, Fast, Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.",
       "tags": [
-        "tools"
+        "Video Conferencing"
       ],
-      "source": "https://github.com/DIYgod/RSSHub",
-      "website": "https://docs.rsshub.app/",
-      "icon": "https://raw.githubusercontent.com/DIYgod/RSSHub/master/lib/assets/logo.png",
-      "screenshots": null,
-      "stars": 32666,
-      "forks": 7285,
-      "watchers": 32666,
-      "issues": 355,
-      "last_updated": "2024-10-08T15:34:38Z",
-      "last_pushed": "2024-10-08T15:35:11Z",
-      "created_at": "2018-04-02T14:43:21Z",
-      "size": 397856,
+      "source": "https://github.com/miroslavpejic85/mirotalk",
+      "website": "https://p2p.mirotalk.com",
+      "icon": "https://www.saashub.com/images/app/service_logos/213/pgzsasbgu5fr/large.png?1653219756",
+      "screenshots": [
+        "https://github.com/miroslavpejic85/mirotalk/raw/master/public/images/mirotalk-header.gif"
+      ],
+      "installationnotes": "Make sure to to change all the secrets and Passwords.",
+      "stars": 2968,
+      "forks": 551,
+      "watchers": 2968,
+      "issues": 6,
+      "last_updated": "2024-10-08T15:40:14Z",
+      "last_pushed": "2024-10-08T15:40:09Z",
+      "created_at": "2021-01-01T21:31:15Z",
+      "size": 40190,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "mirotalk-p2p"
+    },
+    {
+      "name": "Unleash",
+      "description": "Unleash is an open source feature management solution.",
+      "tags": [
+        "feature-toggle"
+      ],
+      "source": "https://github.com/Unleash/unleash",
+      "website": "https://getunleash.io/",
+      "icon": "https://avatars.githubusercontent.com/u/23053233?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Unleash/unleash/main/.github/github_online_demo.svg"
+      ],
+      "stars": 11101,
+      "forks": 695,
+      "watchers": 11101,
+      "issues": 47,
+      "last_updated": "2024-10-08T15:33:53Z",
+      "last_pushed": "2024-10-08T15:39:31Z",
+      "created_at": "2014-09-29T12:50:46Z",
+      "size": 241947,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "rsshub"
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "unleash"
     },
     {
       "name": "Ghost",
@@ -153,17 +186,42 @@
       "stars": 47069,
       "forks": 10244,
       "watchers": 47069,
-      "issues": 146,
+      "issues": 147,
       "last_updated": "2024-10-08T14:56:27Z",
-      "last_pushed": "2024-10-08T15:33:22Z",
+      "last_pushed": "2024-10-08T15:38:12Z",
       "created_at": "2013-05-04T11:09:13Z",
-      "size": 317721,
+      "size": 317749,
       "language": "JavaScript",
       "gitops": false,
       "status": "active",
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "ghost"
+    },
+    {
+      "name": "RSSHub",
+      "description": "RSSHub is an open source, easy to use, and extensible RSS feed generator. It is capable of generating RSS feeds from pretty much everything.",
+      "tags": [
+        "tools"
+      ],
+      "source": "https://github.com/DIYgod/RSSHub",
+      "website": "https://docs.rsshub.app/",
+      "icon": "https://raw.githubusercontent.com/DIYgod/RSSHub/master/lib/assets/logo.png",
+      "screenshots": null,
+      "stars": 32667,
+      "forks": 7285,
+      "watchers": 32667,
+      "issues": 355,
+      "last_updated": "2024-10-08T15:40:28Z",
+      "last_pushed": "2024-10-08T15:35:11Z",
+      "created_at": "2018-04-02T14:43:21Z",
+      "size": 397856,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "rsshub"
     },
     {
       "name": "Appsmith",
@@ -223,36 +281,6 @@
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "affine"
-    },
-    {
-      "name": "Grafana",
-      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "dashboard"
-      ],
-      "source": "https://github.com/grafana/grafana",
-      "website": "https://grafana.com/",
-      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
-      "screenshots": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
-      ],
-      "stars": 64284,
-      "forks": 12026,
-      "watchers": 64284,
-      "issues": 4153,
-      "last_updated": "2024-10-08T14:33:57Z",
-      "last_pushed": "2024-10-08T15:26:08Z",
-      "created_at": "2013-12-11T15:59:56Z",
-      "size": 1168534,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "grafana"
     },
     {
       "name": "Bitwarden",
@@ -363,7 +391,7 @@
       "last_updated": "2024-10-08T15:22:35Z",
       "last_pushed": "2024-10-08T14:56:09Z",
       "created_at": "2012-10-29T16:12:24Z",
-      "size": 40691,
+      "size": 40833,
       "language": "Go",
       "gitops": false,
       "status": "active",
@@ -383,11 +411,11 @@
       "screenshots": [
         "https://usememos.com/demo.webp"
       ],
-      "stars": 30609,
+      "stars": 30610,
       "forks": 2292,
-      "watchers": 30609,
+      "watchers": 30610,
       "issues": 33,
-      "last_updated": "2024-10-08T14:45:32Z",
+      "last_updated": "2024-10-08T15:47:51Z",
       "last_pushed": "2024-10-08T14:45:18Z",
       "created_at": "2021-12-08T15:30:18Z",
       "size": 32684,
@@ -418,7 +446,7 @@
       "last_updated": "2024-10-08T14:44:08Z",
       "last_pushed": "2024-10-08T14:43:52Z",
       "created_at": "2012-01-19T13:21:52Z",
-      "size": 2006173,
+      "size": 2013293,
       "language": "PHP",
       "gitops": false,
       "status": "active",
@@ -467,7 +495,7 @@
       "stars": 29692,
       "forks": 9435,
       "watchers": 29692,
-      "issues": 817,
+      "issues": 816,
       "last_updated": "2024-10-08T14:27:17Z",
       "last_pushed": "2024-10-08T14:27:03Z",
       "created_at": "2010-01-04T14:21:21Z",
@@ -522,11 +550,11 @@
       "screenshots": [
         "https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png"
       ],
-      "stars": 82394,
+      "stars": 82395,
       "forks": 7699,
-      "watchers": 82394,
+      "watchers": 82395,
       "issues": 1888,
-      "last_updated": "2024-10-08T14:48:15Z",
+      "last_updated": "2024-10-08T15:38:37Z",
       "last_pushed": "2024-10-08T14:24:09Z",
       "created_at": "2020-01-02T01:04:43Z",
       "size": 131665,
@@ -696,7 +724,7 @@
         "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png"
       ],
       "stars": 17157,
-      "forks": 958,
+      "forks": 959,
       "watchers": 17157,
       "issues": 233,
       "last_updated": "2024-10-08T15:13:10Z",
@@ -752,7 +780,7 @@
       "stars": 56903,
       "forks": 5123,
       "watchers": 56903,
-      "issues": 672,
+      "issues": 671,
       "last_updated": "2024-10-08T15:12:40Z",
       "last_pushed": "2024-10-08T10:09:58Z",
       "created_at": "2021-07-03T01:02:42Z",
@@ -972,11 +1000,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/images/stirling-home.png"
       ],
-      "stars": 43407,
+      "stars": 43408,
       "forks": 3514,
-      "watchers": 43407,
+      "watchers": 43408,
       "issues": 205,
-      "last_updated": "2024-10-08T15:18:42Z",
+      "last_updated": "2024-10-08T15:44:03Z",
       "last_pushed": "2024-10-07T22:35:33Z",
       "created_at": "2023-01-27T18:22:42Z",
       "size": 69277,
@@ -1224,34 +1252,6 @@
       "dirname": "shiori"
     },
     {
-      "name": "MiroTalk P2P",
-      "description": "WebRTC - P2P - Simple, Secure, Fast, Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.",
-      "tags": [
-        "Video Conferencing"
-      ],
-      "source": "https://github.com/miroslavpejic85/mirotalk",
-      "website": "https://p2p.mirotalk.com",
-      "icon": "https://www.saashub.com/images/app/service_logos/213/pgzsasbgu5fr/large.png?1653219756",
-      "screenshots": [
-        "https://github.com/miroslavpejic85/mirotalk/raw/master/public/images/mirotalk-header.gif"
-      ],
-      "installationnotes": "Make sure to to change all the secrets and Passwords.",
-      "stars": 2968,
-      "forks": 551,
-      "watchers": 2968,
-      "issues": 7,
-      "last_updated": "2024-10-08T13:00:16Z",
-      "last_pushed": "2024-10-07T09:27:54Z",
-      "created_at": "2021-01-01T21:31:15Z",
-      "size": 40190,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "mirotalk-p2p"
-    },
-    {
       "name": "Lychee",
       "description": "An easy-to-use photo-management-system to manage and share photos.",
       "tags": [
@@ -1259,8 +1259,10 @@
       ],
       "source": "https://github.com/LycheeOrg/Lychee",
       "website": "https://lycheeorg.github.io/",
-      "icon": "hhttps://avatars.githubusercontent.com/u/37916028?s=200&v=4",
-      "screenshots": null,
+      "icon": "https://avatars.githubusercontent.com/u/37916028?s=200&v=4",
+      "screenshots": [
+        "https://lycheeorg.github.io/assets/3.BzY-5hAj.jpg"
+      ],
       "stars": 3345,
       "forks": 299,
       "watchers": 3345,
@@ -1428,11 +1430,11 @@
       "screenshots": [
         "https://i.ibb.co/L8YbNNc/dashy-demo2.gif"
       ],
-      "stars": 17147,
+      "stars": 17148,
       "forks": 1310,
-      "watchers": 17147,
+      "watchers": 17148,
       "issues": 96,
-      "last_updated": "2024-10-08T14:24:32Z",
+      "last_updated": "2024-10-08T15:39:30Z",
       "last_pushed": "2024-10-06T01:29:18Z",
       "created_at": "2021-02-28T10:35:44Z",
       "size": 718706,
@@ -2278,7 +2280,7 @@
       ],
       "source": "https://github.com/szabodanika/microbin",
       "website": "https://microbin.eu/",
-      "icon": "https://microbin.eu/img/logo-square.png",
+      "icon": "https://raw.githubusercontent.com/szabodanika/microbin/refs/heads/master/templates/assets/logo-square.png",
       "screenshots": [
         "https://microbin.eu/img/screenshot7.png",
         "https://microbin.eu/img/screenshot6.png",

@@ -1,6 +1,65 @@
 {
   "services": [
     {
+      "name": "Casdoor",
+      "description": "An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with beautiful web UI and the official client SDKs",
+      "tags": [
+        "authentication"
+      ],
+      "source": "https://github.com/casdoor/casdoor",
+      "website": "https://casdoor.org",
+      "icon": "https://avatars.githubusercontent.com/u/72992104?s=200&v=4",
+      "screenshots": [
+        "https://casdoor.org/assets/images/import_success-8be0db7efa60235af1149e529292948b.png",
+        "https://casdoor.org/assets/images/dashboard-951aa5187e74f5446a91447e00111c79.png",
+        "https://casdoor.org/assets/images/step4_result2-5f31450f52b9f797c8f1afcf2fd19914.png"
+      ],
+      "stars": 10016,
+      "forks": 1182,
+      "watchers": 10016,
+      "issues": 93,
+      "last_updated": "2024-10-20T12:09:25Z",
+      "last_pushed": "2024-10-20T12:10:53Z",
+      "created_at": "2020-10-22T14:40:03Z",
+      "size": 36346,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "casdoor"
+    },
+    {
+      "name": "Grafana",
+      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "dashboard"
+      ],
+      "source": "https://github.com/grafana/grafana",
+      "website": "https://grafana.com/",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
+      "screenshots": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
+      ],
+      "stars": 64471,
+      "forks": 12064,
+      "watchers": 64471,
+      "issues": 4176,
+      "last_updated": "2024-10-20T10:06:59Z",
+      "last_pushed": "2024-10-20T12:03:56Z",
+      "created_at": "2013-12-11T15:59:56Z",
+      "size": 1156439,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "grafana"
+    },
+    {
       "name": "cal.com",
       "description": "The open source Calendly alternative. You are in charge of your own data, workflow and appearance",
       "tags": [
@@ -99,11 +158,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/images/stirling-home.png"
       ],
-      "stars": 43790,
+      "stars": 43791,
       "forks": 3570,
-      "watchers": 43790,
+      "watchers": 43791,
       "issues": 216,
-      "last_updated": "2024-10-20T11:40:36Z",
+      "last_updated": "2024-10-20T12:12:56Z",
       "last_pushed": "2024-10-20T11:31:52Z",
       "created_at": "2023-01-27T18:22:42Z",
       "size": 69439,
@@ -113,36 +172,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "sterlingpdf"
-    },
-    {
-      "name": "Grafana",
-      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "dashboard"
-      ],
-      "source": "https://github.com/grafana/grafana",
-      "website": "https://grafana.com/",
-      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
-      "screenshots": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
-      ],
-      "stars": 64471,
-      "forks": 12064,
-      "watchers": 64471,
-      "issues": 4176,
-      "last_updated": "2024-10-20T10:06:59Z",
-      "last_pushed": "2024-10-20T11:02:30Z",
-      "created_at": "2013-12-11T15:59:56Z",
-      "size": 1156439,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "grafana"
     },
     {
       "name": "Rallly",
@@ -257,7 +286,7 @@
       "stars": 41362,
       "forks": 2691,
       "watchers": 41362,
-      "issues": 228,
+      "issues": 229,
       "last_updated": "2024-10-20T11:35:02Z",
       "last_pushed": "2024-10-20T09:48:39Z",
       "created_at": "2022-07-31T18:45:21Z",
@@ -281,11 +310,11 @@
       "screenshots": [
         "https://usememos.com/demo.webp"
       ],
-      "stars": 30922,
+      "stars": 30923,
       "forks": 2316,
-      "watchers": 30922,
+      "watchers": 30923,
       "issues": 32,
-      "last_updated": "2024-10-20T11:54:46Z",
+      "last_updated": "2024-10-20T12:10:20Z",
       "last_pushed": "2024-10-20T09:08:14Z",
       "created_at": "2021-12-08T15:30:18Z",
       "size": 32608,
@@ -688,11 +717,11 @@
       "website": "https://github.com/dani-garcia/vaultwarden",
       "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg",
       "screenshots": null,
-      "stars": 37920,
+      "stars": 37923,
       "forks": 1839,
-      "watchers": 37920,
+      "watchers": 37923,
       "issues": 21,
-      "last_updated": "2024-10-20T12:00:24Z",
+      "last_updated": "2024-10-20T12:12:51Z",
       "last_pushed": "2024-10-19T16:22:21Z",
       "created_at": "2018-02-17T22:40:20Z",
       "size": 9519,
@@ -702,35 +731,6 @@
       "license": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
       "dirname": "vaultwarden"
-    },
-    {
-      "name": "Casdoor",
-      "description": "An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with beautiful web UI and the official client SDKs",
-      "tags": [
-        "authentication"
-      ],
-      "source": "https://github.com/casdoor/casdoor",
-      "website": "https://casdoor.org",
-      "icon": "https://avatars.githubusercontent.com/u/72992104?s=200&v=4",
-      "screenshots": [
-        "https://casdoor.org/assets/images/import_success-8be0db7efa60235af1149e529292948b.png",
-        "https://casdoor.org/assets/images/dashboard-951aa5187e74f5446a91447e00111c79.png",
-        "https://casdoor.org/assets/images/step4_result2-5f31450f52b9f797c8f1afcf2fd19914.png"
-      ],
-      "stars": 10016,
-      "forks": 1182,
-      "watchers": 10016,
-      "issues": 94,
-      "last_updated": "2024-10-20T12:01:00Z",
-      "last_pushed": "2024-10-19T15:21:04Z",
-      "created_at": "2020-10-22T14:40:03Z",
-      "size": 36346,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "casdoor"
     },
     {
       "name": "Databag",
@@ -1004,11 +1004,11 @@
         "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
         "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
       ],
-      "stars": 47327,
+      "stars": 47329,
       "forks": 7086,
-      "watchers": 47327,
+      "watchers": 47329,
       "issues": 409,
-      "last_updated": "2024-10-20T11:30:39Z",
+      "last_updated": "2024-10-20T12:11:03Z",
       "last_pushed": "2024-10-18T15:30:28Z",
       "created_at": "2019-06-22T09:24:21Z",
       "size": 174676,
@@ -1031,11 +1031,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/packages/hoppscotch-common/public/images/banner-light.png"
       ],
-      "stars": 64849,
+      "stars": 64848,
       "forks": 4500,
-      "watchers": 64849,
+      "watchers": 64848,
       "issues": 457,
-      "last_updated": "2024-10-20T11:33:20Z",
+      "last_updated": "2024-10-20T12:09:26Z",
       "last_pushed": "2024-10-18T15:09:39Z",
       "created_at": "2019-08-21T13:15:24Z",
       "size": 84321,
@@ -1074,6 +1074,33 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "ghost"
+    },
+    {
+      "name": "Stars Explorer",
+      "description": "Explore star trends showing daily stars and go beyond the 40k-star limit.",
+      "tags": [
+        "developer-tools"
+      ],
+      "source": "https://github.com/emanuelef/daily-stars-explorer",
+      "website": "https://github.com/emanuelef/daily-stars-explorer",
+      "icon": "https://avatars.githubusercontent.com/u/8088857?s=200&v=4",
+      "screenshots": [
+        "https://github.com/emanuelef/daily-stars-explorer/assets/48717/9402696a-0f23-445c-a4fe-29a10c18bc3e"
+      ],
+      "stars": 90,
+      "forks": 1,
+      "watchers": 90,
+      "issues": 7,
+      "last_updated": "2024-10-18T13:25:02Z",
+      "last_pushed": "2024-10-18T13:24:58Z",
+      "created_at": "2023-09-22T16:01:55Z",
+      "size": 1299,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "daily-stars-explorer"
     },
     {
       "name": "LimeSurvey",
@@ -1206,7 +1233,7 @@
       "stars": 57486,
       "forks": 5194,
       "watchers": 57486,
-      "issues": 684,
+      "issues": 683,
       "last_updated": "2024-10-20T11:00:20Z",
       "last_pushed": "2024-10-18T00:25:23Z",
       "created_at": "2021-07-03T01:02:42Z",

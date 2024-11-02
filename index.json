@@ -1,6 +1,372 @@
 {
   "services": [
     {
+      "name": "Rallly",
+      "description": "Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.",
+      "tags": [
+        "collaboration",
+        "scheduling"
+      ],
+      "source": "https://github.com/lukevella/rallly",
+      "website": "https://rallly.co",
+      "documentation": [
+        "https://github.com/lukevella/rallly-selfhosted"
+      ],
+      "icon": "https://rallly.co/favicon-196x196.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/lukevella/rallly/main/docs/images/poll-image.png"
+      ],
+      "stars": 3637,
+      "forks": 342,
+      "watchers": 3637,
+      "issues": 18,
+      "last_updated": "2024-11-02T14:24:45Z",
+      "last_pushed": "2024-11-02T14:21:26Z",
+      "created_at": "2015-01-27T17:01:38Z",
+      "size": 30321,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "rallly"
+    },
+    {
+      "name": "Ghost",
+      "description": "Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content.",
+      "tags": [
+        "CMS",
+        "Blogging",
+        "Publishing"
+      ],
+      "source": "https://github.com/TryGhost/Ghost",
+      "website": "https://ghost.org/",
+      "icon": "https://ghost.org/images/logos/ghost-logo-orb.png",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png"
+      ],
+      "stars": 47378,
+      "forks": 10335,
+      "watchers": 47378,
+      "issues": 161,
+      "last_updated": "2024-11-02T14:20:01Z",
+      "last_pushed": "2024-11-02T14:19:46Z",
+      "created_at": "2013-05-04T11:09:13Z",
+      "size": 322492,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "ghost"
+    },
+    {
+      "name": "Rocket.Chat",
+      "description": "Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.",
+      "tags": [
+        "communications"
+      ],
+      "source": "https://github.com/RocketChat/Rocket.Chat",
+      "website": "https://rocket.chat/",
+      "icon": "https://avatars.githubusercontent.com/u/12508788?s=200&v=4",
+      "screenshots": [
+        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/6464d93d33af48db33864025_Team%20Collab.webp",
+        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/615d85d3d3ae5682e8571dfb_Group%203924%20(1).png"
+      ],
+      "stars": 40466,
+      "forks": 10539,
+      "watchers": 40466,
+      "issues": 3111,
+      "last_updated": "2024-11-02T13:12:07Z",
+      "last_pushed": "2024-11-02T14:17:30Z",
+      "created_at": "2015-05-19T07:36:09Z",
+      "size": 1039280,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "rocketchat"
+    },
+    {
+      "name": "RSSHub",
+      "description": "RSSHub is an open source, easy to use, and extensible RSS feed generator. It is capable of generating RSS feeds from pretty much everything.",
+      "tags": [
+        "tools"
+      ],
+      "source": "https://github.com/DIYgod/RSSHub",
+      "website": "https://docs.rsshub.app/",
+      "icon": "https://raw.githubusercontent.com/DIYgod/RSSHub/master/lib/assets/logo.png",
+      "screenshots": null,
+      "stars": 33367,
+      "forks": 7451,
+      "watchers": 33367,
+      "issues": 329,
+      "last_updated": "2024-11-02T14:34:39Z",
+      "last_pushed": "2024-11-02T13:08:14Z",
+      "created_at": "2018-04-02T14:43:21Z",
+      "size": 428372,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "rsshub"
+    },
+    {
+      "name": "Photoview",
+      "description": "Photoview is a simple and user-friendly photo gallery that is made for photographers and aims to provide an easy and fast way to navigate directories.",
+      "tags": [
+        "imaga database"
+      ],
+      "source": "https://github.com/photoview/photoview",
+      "website": "https://photoview.github.io/",
+      "icon": "https://avatars.githubusercontent.com/u/75802894?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/photoview/photoview/master/screenshots/timeline.png"
+      ],
+      "stars": 5273,
+      "forks": 396,
+      "watchers": 5273,
+      "issues": 184,
+      "last_updated": "2024-11-02T14:03:24Z",
+      "last_pushed": "2024-11-02T13:05:40Z",
+      "created_at": "2019-07-07T13:55:00Z",
+      "size": 55839,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "photoview"
+    },
+    {
+      "name": "Gotify",
+      "description": "Gotify is a simple server for sending and receiving messages (in real time per WebSocket)",
+      "tags": [
+        "monitoring"
+      ],
+      "source": "https://github.com/gotify/server",
+      "website": "https://gotify-net",
+      "icon": "https://raw.githubusercontent.com/gotify/logo/master/gotify-logo.png",
+      "screenshots": [
+        "https://github.com/gotify/server/raw/master/ui.png"
+      ],
+      "stars": 11367,
+      "forks": 632,
+      "watchers": 11367,
+      "issues": 60,
+      "last_updated": "2024-11-02T14:20:30Z",
+      "last_pushed": "2024-11-02T12:50:46Z",
+      "created_at": "2018-01-15T20:25:27Z",
+      "size": 3496,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "gotify"
+    },
+    {
+      "name": "Joomla",
+      "description": "Joomla is a free and open-source content management system for publishing web content on websites.",
+      "tags": [
+        "CMS"
+      ],
+      "source": "https://github.com/joomla/joomla-cms",
+      "website": "https://joomla.org",
+      "icon": "https://avatars.githubusercontent.com/u/751633?s=200&v=4",
+      "screenshots": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/96/Backend_Joomla_4_en.png"
+      ],
+      "stars": 4767,
+      "forks": 3647,
+      "watchers": 4767,
+      "issues": 1036,
+      "last_updated": "2024-11-01T22:38:11Z",
+      "last_pushed": "2024-11-02T12:42:54Z",
+      "created_at": "2011-09-27T02:07:38Z",
+      "size": 338651,
+      "language": "PHP",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "dirname": "joomla"
+    },
+    {
+      "name": "pgAdmin",
+      "description": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL.",
+      "tags": [
+        "database"
+      ],
+      "source": "https://github.com/pgadmin-org/pgadmin4",
+      "website": "https://www.pgadmin.org",
+      "icon": "https://avatars.githubusercontent.com/u/113517144?s=200&v=4",
+      "screenshots": null,
+      "stars": 2505,
+      "forks": 651,
+      "watchers": 2505,
+      "issues": 365,
+      "last_updated": "2024-11-02T12:09:29Z",
+      "last_pushed": "2024-11-02T12:31:24Z",
+      "created_at": "2017-02-20T11:54:13Z",
+      "size": 313199,
+      "language": "Python",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "pgadmin"
+    },
+    {
+      "name": "Memos",
+      "description": "Memos is a simple note taking app. ",
+      "tags": [
+        "note taking"
+      ],
+      "source": "https://github.com/usememos/memos",
+      "website": "https://usememos.com/",
+      "icon": "https://avatars.githubusercontent.com/u/95764151?s=200&v=4",
+      "screenshots": [
+        "https://usememos.com/demo.webp"
+      ],
+      "stars": 33137,
+      "forks": 2423,
+      "watchers": 33137,
+      "issues": 35,
+      "last_updated": "2024-11-02T14:38:47Z",
+      "last_pushed": "2024-11-02T12:24:21Z",
+      "created_at": "2021-12-08T15:30:18Z",
+      "size": 32838,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "memos"
+    },
+    {
+      "name": "Kuma",
+      "description": "Kuma is a self-hosted monitoring tool like \"Uptime Robot\". ",
+      "tags": [
+        "monitoring"
+      ],
+      "source": "https://github.com/louislam/uptime-kuma",
+      "website": "https://uptime.kuma.pet",
+      "icon": "https://github.com/louislam/uptime-kuma/raw/master/public/icon.svg",
+      "screenshots": [
+        "https://camo.githubusercontent.com/9674a2b1b7d094b060fd79e6df7dca10b86a484ce6015b2668cff768dfc786ee/68747470733a2f2f757074696d652e6b756d612e7065742f696d672f6461726b2e6a7067"
+      ],
+      "stars": 58387,
+      "forks": 5265,
+      "watchers": 58387,
+      "issues": 695,
+      "last_updated": "2024-11-02T14:24:37Z",
+      "last_pushed": "2024-11-02T12:09:23Z",
+      "created_at": "2021-07-03T01:02:42Z",
+      "size": 27391,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "kuma"
+    },
+    {
+      "name": "LanguageTool",
+      "description": "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages.",
+      "tags": [
+        "spellcheck",
+        "grammar"
+      ],
+      "source": "https://github.com/languagetool-org/languagetool",
+      "website": "https://languagetool.org/",
+      "icon": "https://avatars.githubusercontent.com/u/5187764?s=200&v=4",
+      "documentation": [
+        "https://github.com/Erikvl87/docker-languagetool/blob/master/docker-compose.yml"
+      ],
+      "screenshots": [
+        "https://languagetool.org/videos/gmail_de_en.mp4"
+      ],
+      "stars": 12388,
+      "forks": 1390,
+      "watchers": 12388,
+      "issues": 1970,
+      "last_updated": "2024-11-02T13:24:00Z",
+      "last_pushed": "2024-11-02T11:44:54Z",
+      "created_at": "2013-08-08T16:37:22Z",
+      "size": 5651148,
+      "language": "Java",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "dirname": "languagetool"
+    },
+    {
+      "name": "gitea",
+      "description": "Painless self-hosted all-in-one software development service, includes Git hosting, code review, team collaboration, package registry and CI/CD",
+      "tags": [
+        "git repository",
+        "git"
+      ],
+      "source": "https://github.com/go-gitea/gitea",
+      "website": "https://gitea.io/",
+      "icon": "https://avatars.githubusercontent.com/u/12724356?s=200&v=4",
+      "screenshots": [
+        "https://camo.githubusercontent.com/134f49a62801ab393c211125515d108439c67b59befb2ec3e42e7235af4f5d6c/68747470733a2f2f646c2e67697465612e696f2f73637265656e73686f74732f686f6d655f74696d656c696e652e706e67",
+        "https://camo.githubusercontent.com/186c2a4c286dcb5e6c419ae11c062721ba73eafcc40e518f237adcc9985385db/68747470733a2f2f646c2e67697465612e696f2f73637265656e73686f74732f757365725f70726f66696c652e706e67"
+      ],
+      "stars": 44867,
+      "forks": 5474,
+      "watchers": 44867,
+      "issues": 2748,
+      "last_updated": "2024-11-02T13:38:28Z",
+      "last_pushed": "2024-11-02T11:20:22Z",
+      "created_at": "2016-11-01T02:13:26Z",
+      "size": 290418,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "gitea"
+    },
+    {
+      "name": "MicroBin",
+      "description": "A tiny, self-contained, configurable paste bin and URL shortener written in Rust.",
+      "tags": [
+        "pastebin"
+      ],
+      "source": "https://github.com/szabodanika/microbin",
+      "website": "https://microbin.eu/",
+      "icon": "https://raw.githubusercontent.com/szabodanika/microbin/refs/heads/master/templates/assets/logo-square.png",
+      "screenshots": [
+        "https://microbin.eu/img/screenshot7.png",
+        "https://microbin.eu/img/screenshot6.png",
+        "https://microbin.eu/img/screenshot1.png",
+        "https://microbin.eu/img/screenshot4.png",
+        "https://microbin.eu/img/screenshot5.png",
+        "https://microbin.eu/img/screenshot3.png",
+        "https://microbin.eu/img/screenshot2.png"
+      ],
+      "stars": 2692,
+      "forks": 168,
+      "watchers": 2692,
+      "issues": 101,
+      "last_updated": "2024-11-02T10:44:00Z",
+      "last_pushed": "2024-11-02T10:43:56Z",
+      "created_at": "2022-04-10T22:21:27Z",
+      "size": 5609,
+      "language": "Rust",
+      "gitops": false,
+      "status": "active",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "dirname": "microbin"
+    },
+    {
       "name": "Bitwarden",
       "description": "Open source password management solutions for individuals, teams, and business organizations.",
       "tags": [
@@ -12,14 +378,14 @@
       "screenshots": [
         "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/apps-combo-logo.png"
       ],
-      "stars": 15566,
-      "forks": 1312,
-      "watchers": 15566,
-      "issues": 166,
-      "last_updated": "2024-11-01T12:20:26Z",
-      "last_pushed": "2024-11-01T15:14:17Z",
+      "stars": 15569,
+      "forks": 1311,
+      "watchers": 15569,
+      "issues": 168,
+      "last_updated": "2024-11-02T13:23:43Z",
+      "last_pushed": "2024-11-02T10:37:50Z",
       "created_at": "2015-11-23T23:45:33Z",
-      "size": 30206,
+      "size": 30315,
       "language": "C#",
       "gitops": false,
       "status": "active",
@@ -41,357 +407,20 @@
         "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
         "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
       ],
-      "stars": 48017,
-      "forks": 7383,
-      "watchers": 48017,
-      "issues": 428,
-      "last_updated": "2024-11-01T15:14:54Z",
-      "last_pushed": "2024-11-01T15:12:31Z",
+      "stars": 48066,
+      "forks": 7413,
+      "watchers": 48066,
+      "issues": 435,
+      "last_updated": "2024-11-02T14:37:56Z",
+      "last_pushed": "2024-11-02T10:12:49Z",
       "created_at": "2019-06-22T09:24:21Z",
-      "size": 176648,
+      "size": 176243,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "n8n"
-    },
-    {
-      "name": "Excalidraw",
-      "description": "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted.",
-      "tags": [
-        "drawing",
-        "collaboration",
-        "whiteboard"
-      ],
-      "source": "https://github.com/excalidraw/excalidraw",
-      "website": "https://excalidraw.com/",
-      "icon": "https://avatars.githubusercontent.com/u/59452120?s=200&v=4",
-      "screenshots": [
-        "https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png"
-      ],
-      "stars": 83826,
-      "forks": 7897,
-      "watchers": 83826,
-      "issues": 1901,
-      "last_updated": "2024-11-01T15:06:40Z",
-      "last_pushed": "2024-11-01T15:12:04Z",
-      "created_at": "2020-01-02T01:04:43Z",
-      "size": 85029,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "excalidraw"
-    },
-    {
-      "name": "RSSHub",
-      "description": "RSSHub is an open source, easy to use, and extensible RSS feed generator. It is capable of generating RSS feeds from pretty much everything.",
-      "tags": [
-        "tools"
-      ],
-      "source": "https://github.com/DIYgod/RSSHub",
-      "website": "https://docs.rsshub.app/",
-      "icon": "https://raw.githubusercontent.com/DIYgod/RSSHub/master/lib/assets/logo.png",
-      "screenshots": null,
-      "stars": 33345,
-      "forks": 7447,
-      "watchers": 33345,
-      "issues": 333,
-      "last_updated": "2024-11-01T15:09:49Z",
-      "last_pushed": "2024-11-01T15:10:22Z",
-      "created_at": "2018-04-02T14:43:21Z",
-      "size": 300586,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "rsshub"
-    },
-    {
-      "name": "Grafana",
-      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "dashboard"
-      ],
-      "source": "https://github.com/grafana/grafana",
-      "website": "https://grafana.com/",
-      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
-      "screenshots": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
-      ],
-      "stars": 64665,
-      "forks": 12102,
-      "watchers": 64665,
-      "issues": 4220,
-      "last_updated": "2024-11-01T15:06:20Z",
-      "last_pushed": "2024-11-01T15:06:17Z",
-      "created_at": "2013-12-11T15:59:56Z",
-      "size": 1167043,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "grafana"
-    },
-    {
-      "name": "Coral",
-      "description": "A better onlne commenting experience from Vox Media",
-      "tags": [
-        "commments",
-        "community"
-      ],
-      "source": "https://github.com/coralproject/talk",
-      "website": "https://coralproject.net",
-      "documentation": [
-        "https://docs.coralproject.net/",
-        "https://github.com/coralproject/talk/blob/main/docs/docs/environment-variables.md"
-      ],
-      "icon": "https://avatars.githubusercontent.com/u/9255912?s=200&v=4",
-      "screenshots": null,
-      "stars": 1892,
-      "forks": 355,
-      "watchers": 1892,
-      "issues": 30,
-      "last_updated": "2024-11-01T14:46:11Z",
-      "last_pushed": "2024-11-01T15:05:54Z",
-      "created_at": "2016-10-31T16:14:05Z",
-      "size": 81296,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "coral"
-    },
-    {
-      "name": "Ghost",
-      "description": "Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content.",
-      "tags": [
-        "CMS",
-        "Blogging",
-        "Publishing"
-      ],
-      "source": "https://github.com/TryGhost/Ghost",
-      "website": "https://ghost.org/",
-      "icon": "https://ghost.org/images/logos/ghost-logo-orb.png",
-      "screenshots": [
-        "https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png"
-      ],
-      "stars": 47367,
-      "forks": 10335,
-      "watchers": 47367,
-      "issues": 159,
-      "last_updated": "2024-11-01T15:05:49Z",
-      "last_pushed": "2024-11-01T15:05:36Z",
-      "created_at": "2013-05-04T11:09:13Z",
-      "size": 321930,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "ghost"
-    },
-    {
-      "name": "Unleash",
-      "description": "Unleash is an open source feature management solution.",
-      "tags": [
-        "feature-toggle"
-      ],
-      "source": "https://github.com/Unleash/unleash",
-      "website": "https://getunleash.io/",
-      "icon": "https://avatars.githubusercontent.com/u/23053233?s=200&v=4",
-      "screenshots": [
-        "https://raw.githubusercontent.com/Unleash/unleash/main/.github/github_online_demo.svg"
-      ],
-      "stars": 11337,
-      "forks": 708,
-      "watchers": 11337,
-      "issues": 48,
-      "last_updated": "2024-11-01T14:52:03Z",
-      "last_pushed": "2024-11-01T14:50:13Z",
-      "created_at": "2014-09-29T12:50:46Z",
-      "size": 250379,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "unleash"
-    },
-    {
-      "name": "cal.com",
-      "description": "The open source Calendly alternative. You are in charge of your own data, workflow and appearance",
-      "tags": [
-        "calendar"
-      ],
-      "source": "https://github.com/calcom/cal.com",
-      "website": "https://cal.com/",
-      "icon": "https://avatars.githubusercontent.com/u/79145102?s=200&v=4",
-      "screenshots": [
-        "https://user-images.githubusercontent.com/8019099/176390354-f1bc7069-0341-437a-9bb8-eb41092b4016.gif"
-      ],
-      "stars": 32181,
-      "forks": 7914,
-      "watchers": 32181,
-      "issues": 937,
-      "last_updated": "2024-11-01T15:06:41Z",
-      "last_pushed": "2024-11-01T14:47:49Z",
-      "created_at": "2021-03-22T13:47:42Z",
-      "size": 518535,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "calcom"
-    },
-    {
-      "name": "Rocket.Chat",
-      "description": "Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.",
-      "tags": [
-        "communications"
-      ],
-      "source": "https://github.com/RocketChat/Rocket.Chat",
-      "website": "https://rocket.chat/",
-      "icon": "https://avatars.githubusercontent.com/u/12508788?s=200&v=4",
-      "screenshots": [
-        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/6464d93d33af48db33864025_Team%20Collab.webp",
-        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/615d85d3d3ae5682e8571dfb_Group%203924%20(1).png"
-      ],
-      "stars": 40458,
-      "forks": 10532,
-      "watchers": 40458,
-      "issues": 3116,
-      "last_updated": "2024-11-01T15:06:51Z",
-      "last_pushed": "2024-11-01T14:41:45Z",
-      "created_at": "2015-05-19T07:36:09Z",
-      "size": 1032093,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "rocketchat"
-    },
-    {
-      "name": "Nats",
-      "description": "Connective Technology for Adaptive Edge & Distributed Systems",
-      "tags": [
-        "network",
-        "pubsub",
-        "microservices"
-      ],
-      "source": "https://github.com/nats-io/nats-server",
-      "website": "https://nats.io",
-      "icon": "https://avatars.githubusercontent.com/u/10203055?s=200&v=4",
-      "screenshots": [],
-      "stars": 15867,
-      "forks": 1404,
-      "watchers": 15867,
-      "issues": 375,
-      "last_updated": "2024-11-01T14:06:07Z",
-      "last_pushed": "2024-11-01T14:24:48Z",
-      "created_at": "2012-10-29T16:12:24Z",
-      "size": 39102,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "nats"
-    },
-    {
-      "name": "Leantime",
-      "description": "Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind.",
-      "tags": [
-        "project-management"
-      ],
-      "source": "https://github.com/Leantime/leantime",
-      "website": "https://leantime.io/",
-      "icon": "https://avatars.githubusercontent.com/u/11252321?s=200&v=4",
-      "screenshots": [
-        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/mywork.png",
-        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/dark.png",
-        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/kanban.png",
-        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/timeline.png"
-      ],
-      "stars": 4558,
-      "forks": 593,
-      "watchers": 4558,
-      "issues": 254,
-      "last_updated": "2024-11-01T14:52:44Z",
-      "last_pushed": "2024-11-01T13:53:14Z",
-      "created_at": "2015-01-23T17:52:06Z",
-      "size": 185511,
-      "language": "PHP",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "leantime"
-    },
-    {
-      "name": "Docker Registry",
-      "description": "The Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images.",
-      "tags": [
-        "docker"
-      ],
-      "source": "https://github.com/distribution/distribution",
-      "website": "https://docs.docker.com/registry/",
-      "icon": "https://avatars.githubusercontent.com/u/5429470?s=200&v=4",
-      "screenshots": null,
-      "stars": 8964,
-      "forks": 2485,
-      "watchers": 8964,
-      "issues": 439,
-      "last_updated": "2024-11-01T15:05:56Z",
-      "last_pushed": "2024-11-01T12:45:02Z",
-      "created_at": "2014-12-22T23:49:26Z",
-      "size": 35512,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "dockerregistry"
-    },
-    {
-      "name": "AFFiNE",
-      "description": "AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together",
-      "tags": [
-        "drawing",
-        "planning",
-        "collaboration"
-      ],
-      "source": "https://github.com/toeverything/AFFiNE",
-      "website": "https://affine.pro/",
-      "documentation": [
-        "https://docs.affine.pro/docs/hello-bonjour-aloha-%E4%BD%A0%E5%A5%BD"
-      ],
-      "icon": "https://raw.githubusercontent.com/toeverything/AFFiNE.pro/60f42504c0e1572a2ede0a8d95a398a229b0bb9a/public/overview/stay-focused-logo.png",
-      "screenshots": null,
-      "stars": 41781,
-      "forks": 2723,
-      "watchers": 41781,
-      "issues": 226,
-      "last_updated": "2024-11-01T14:56:43Z",
-      "last_pushed": "2024-11-01T12:35:19Z",
-      "created_at": "2022-07-31T18:45:21Z",
-      "size": 375906,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "affine"
     },
     {
       "name": "NocoDB",
@@ -414,14 +443,14 @@
         "https://user-images.githubusercontent.com/35857179/194844890-b9f265ae-6e40-4fa5-9267-d1367c27c8e6.png",
         "https://user-images.githubusercontent.com/35857179/194844903-c1e47f40-e782-4f5d-8dce-6449cc70b181.png"
       ],
-      "stars": 49416,
-      "forks": 3375,
-      "watchers": 49416,
+      "stars": 49429,
+      "forks": 3379,
+      "watchers": 49429,
       "issues": 698,
-      "last_updated": "2024-11-01T15:15:13Z",
-      "last_pushed": "2024-11-01T12:27:46Z",
+      "last_updated": "2024-11-02T13:44:12Z",
+      "last_pushed": "2024-11-02T09:12:44Z",
       "created_at": "2017-10-29T18:51:48Z",
-      "size": 1219133,
+      "size": 1219135,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
@@ -430,35 +459,532 @@
       "dirname": "nocodb"
     },
     {
-      "name": "LanguageTool",
-      "description": "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages.",
+      "name": "cal.com",
+      "description": "The open source Calendly alternative. You are in charge of your own data, workflow and appearance",
       "tags": [
-        "spellcheck",
-        "grammar"
+        "calendar"
       ],
-      "source": "https://github.com/languagetool-org/languagetool",
-      "website": "https://languagetool.org/",
-      "icon": "https://avatars.githubusercontent.com/u/5187764?s=200&v=4",
-      "documentation": [
-        "https://github.com/Erikvl87/docker-languagetool/blob/master/docker-compose.yml"
-      ],
+      "source": "https://github.com/calcom/cal.com",
+      "website": "https://cal.com/",
+      "icon": "https://avatars.githubusercontent.com/u/79145102?s=200&v=4",
       "screenshots": [
-        "https://languagetool.org/videos/gmail_de_en.mp4"
+        "https://user-images.githubusercontent.com/8019099/176390354-f1bc7069-0341-437a-9bb8-eb41092b4016.gif"
       ],
-      "stars": 12383,
-      "forks": 1390,
-      "watchers": 12383,
-      "issues": 1969,
-      "last_updated": "2024-11-01T11:49:20Z",
-      "last_pushed": "2024-11-01T11:49:15Z",
-      "created_at": "2013-08-08T16:37:22Z",
-      "size": 5651144,
-      "language": "Java",
+      "stars": 32193,
+      "forks": 7916,
+      "watchers": 32193,
+      "issues": 944,
+      "last_updated": "2024-11-02T07:10:03Z",
+      "last_pushed": "2024-11-02T08:39:00Z",
+      "created_at": "2021-03-22T13:47:42Z",
+      "size": 519904,
+      "language": "TypeScript",
       "gitops": false,
       "status": "active",
-      "license": "GNU Lesser General Public License v2.1",
-      "spdx_id": "LGPL-2.1",
-      "dirname": "languagetool"
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "calcom"
+    },
+    {
+      "name": "DrawDB",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "tags": [
+        "developer-tools"
+      ],
+      "source": "https://github.com/drawdb-io/drawdb",
+      "website": "https://drawdb.app/",
+      "icon": "https://avatars.githubusercontent.com/u/139706923?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/drawdb-io/.github/main/profile/assets/cover.png"
+      ],
+      "stars": 21920,
+      "forks": 1539,
+      "watchers": 21920,
+      "issues": 70,
+      "last_updated": "2024-11-02T14:33:46Z",
+      "last_pushed": "2024-11-02T07:50:08Z",
+      "created_at": "2023-07-16T17:09:20Z",
+      "size": 4864,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "drawdb"
+    },
+    {
+      "name": "Appsmith",
+      "description": "Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.",
+      "tags": [
+        "admin-dashboard",
+        "workflows",
+        "app-builder"
+      ],
+      "source": "https://github.com/appsmithorg/appsmith",
+      "website": "https://www.appsmith.com",
+      "icon": "https://avatars.githubusercontent.com/u/67620218?s=200&v=4",
+      "screenshots": [
+        "https://images.ctfassets.net/lpvian6u6i39/57xRxbPxLB5Rx6YYCQstyW/d605683e09640cabbb15e9a9d65dc03d/img-cta.png"
+      ],
+      "stars": 34328,
+      "forks": 3716,
+      "watchers": 34328,
+      "issues": 3852,
+      "last_updated": "2024-11-02T12:56:41Z",
+      "last_pushed": "2024-11-02T07:05:25Z",
+      "created_at": "2020-06-30T04:07:36Z",
+      "size": 738105,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "appsmith"
+    },
+    {
+      "name": "Chibisafe",
+      "description": "Blazing fast file uploader and awesome bunker written in node!",
+      "tags": [
+        "fileuploader",
+        "lolisafe"
+      ],
+      "source": "https://github.com/chibisafe/chibisafe",
+      "website": "https://chibisafe.moe",
+      "icon": "https://avatars.githubusercontent.com/u/115422728?s=200&v=4",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/7425261/245041422-659068cd-f154-4fe0-860f-4478e0f859d5.png",
+        "https://user-images.githubusercontent.com/7425261/245041448-83dae9d1-5f71-404a-b79c-19fb4d0dfd62.png",
+        "https://user-images.githubusercontent.com/7425261/245041459-0dad05a8-f42b-4834-983f-2ca82eedb176.png"
+      ],
+      "stars": 1813,
+      "forks": 270,
+      "watchers": 1813,
+      "issues": 35,
+      "last_updated": "2024-11-02T05:41:30Z",
+      "last_pushed": "2024-11-02T05:41:25Z",
+      "created_at": "2017-01-13T07:28:41Z",
+      "size": 14034,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "chibisafe"
+    },
+    {
+      "name": "Databag",
+      "description": "A tiny selfhosted federated messenger for the decentralized web.",
+      "tags": [
+        "chat",
+        "messenger",
+        "federated",
+        "decentralized"
+      ],
+      "source": "https://github.com/balzack/databag",
+      "website": "https://github.com/balzack/databag",
+      "icon": "https://raw.githubusercontent.com/balzack/databag/main/doc/icon_v2.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/balzack/databag/main/doc/mobile.png",
+        "https://github.com/balzack/databag/blob/main/doc/browser.png"
+      ],
+      "stars": 894,
+      "forks": 48,
+      "watchers": 894,
+      "issues": 30,
+      "last_updated": "2024-11-01T17:11:36Z",
+      "last_pushed": "2024-11-02T05:29:06Z",
+      "created_at": "2021-12-20T21:45:16Z",
+      "size": 38075,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "databag"
+    },
+    {
+      "name": "Kanboard",
+      "description": "Kanboard is a free and open source project management software focused on the Kanban methodology.",
+      "tags": [
+        "project-management"
+      ],
+      "source": "https://github.com/kanboard/kanboard",
+      "website": "https://kanboard.org",
+      "icon": "https://avatars.githubusercontent.com/u/13722943?s=200&v=4",
+      "screenshots": [
+        "https://kanboard.org/assets/img/board.png"
+      ],
+      "stars": 8486,
+      "forks": 1801,
+      "watchers": 8486,
+      "issues": 152,
+      "last_updated": "2024-11-02T10:17:46Z",
+      "last_pushed": "2024-11-02T05:26:20Z",
+      "created_at": "2014-01-25T19:58:30Z",
+      "size": 93588,
+      "language": "PHP",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "kanboard"
+    },
+    {
+      "name": "Ryot",
+      "description": "A self hosted platform for tracking various facets of your life - media, fitness etc.",
+      "tags": [
+        "metrics"
+      ],
+      "source": "https://github.com/ignisda/ryot",
+      "website": "https://github.com/ignisda/ryot",
+      "icon": "https://avatars.githubusercontent.com/u/60938164?v=4",
+      "screenshots": null,
+      "stars": 1970,
+      "forks": 53,
+      "watchers": 1970,
+      "issues": 16,
+      "last_updated": "2024-11-02T14:05:19Z",
+      "last_pushed": "2024-11-02T05:09:06Z",
+      "created_at": "2023-04-03T17:02:43Z",
+      "size": 30540,
+      "language": "Rust",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "dirname": "ryot"
+    },
+    {
+      "name": "phpMyAdmin",
+      "description": "phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL and MariaDB over the Web.",
+      "tags": [
+        "database",
+        "administration"
+      ],
+      "source": "https://github.com/phpmyadmin/phpmyadmin",
+      "website": "https://www.phpmyadmin.net/",
+      "icon": "https://avatars.githubusercontent.com/u/1351977?s=200&v=4",
+      "screenshots": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/13/PhpMyAdmin-main-en.png"
+      ],
+      "stars": 7263,
+      "forks": 3402,
+      "watchers": 7263,
+      "issues": 836,
+      "last_updated": "2024-11-02T03:00:32Z",
+      "last_pushed": "2024-11-02T03:00:25Z",
+      "created_at": "2012-01-19T13:21:52Z",
+      "size": 2026249,
+      "language": "PHP",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "dirname": "phpmyadmin"
+    },
+    {
+      "name": "Homebox",
+      "description": "Homebox is the inventory and organization system built for the Home User",
+      "tags": [
+        "Search"
+      ],
+      "source": "https://github.com/sysadminsmedia/homebox",
+      "website": "https://homebox.software",
+      "icon": "https://homebox.software/lilbox.svg",
+      "screenshots": null,
+      "stars": 1067,
+      "forks": 59,
+      "watchers": 1067,
+      "issues": 79,
+      "last_updated": "2024-11-01T16:28:53Z",
+      "last_pushed": "2024-11-02T02:07:03Z",
+      "created_at": "2024-06-17T18:07:09Z",
+      "size": 47826,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "homebox"
+    },
+    {
+      "name": "Grafana",
+      "description": "Grafana open source software enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored.",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "dashboard"
+      ],
+      "source": "https://github.com/grafana/grafana",
+      "website": "https://grafana.com/",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/grafana/grafana-original.svg",
+      "screenshots": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Grafana_screenshot.png/800px-Grafana_screenshot.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grafana_dashboard.png/800px-Grafana_dashboard.png"
+      ],
+      "stars": 64676,
+      "forks": 12105,
+      "watchers": 64676,
+      "issues": 4223,
+      "last_updated": "2024-11-02T13:41:35Z",
+      "last_pushed": "2024-11-02T01:59:33Z",
+      "created_at": "2013-12-11T15:59:56Z",
+      "size": 1167159,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "grafana"
+    },
+    {
+      "name": "opengist",
+      "description": "Self-hosted pastebin powered by Git, open-source alternative to Github Gist.",
+      "tags": [
+        "editor",
+        "pastebin"
+      ],
+      "source": "https://github.com/thomiceli/opengist",
+      "website": "https://github.com/thomiceli/opengist",
+      "documentation": null,
+      "icon": "https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg",
+      "screenshots": null,
+      "stars": 1797,
+      "forks": 97,
+      "watchers": 1797,
+      "issues": 38,
+      "last_updated": "2024-11-02T13:58:01Z",
+      "last_pushed": "2024-11-02T01:05:42Z",
+      "created_at": "2023-04-10T20:58:35Z",
+      "size": 2328,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "opengist"
+    },
+    {
+      "name": "AFFiNE",
+      "description": "AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together",
+      "tags": [
+        "drawing",
+        "planning",
+        "collaboration"
+      ],
+      "source": "https://github.com/toeverything/AFFiNE",
+      "website": "https://affine.pro/",
+      "documentation": [
+        "https://docs.affine.pro/docs/hello-bonjour-aloha-%E4%BD%A0%E5%A5%BD"
+      ],
+      "icon": "https://raw.githubusercontent.com/toeverything/AFFiNE.pro/60f42504c0e1572a2ede0a8d95a398a229b0bb9a/public/overview/stay-focused-logo.png",
+      "screenshots": null,
+      "stars": 41800,
+      "forks": 2728,
+      "watchers": 41800,
+      "issues": 228,
+      "last_updated": "2024-11-02T14:30:05Z",
+      "last_pushed": "2024-11-02T00:16:53Z",
+      "created_at": "2022-07-31T18:45:21Z",
+      "size": 376003,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "affine"
+    },
+    {
+      "name": "MiroTalk P2P",
+      "description": "WebRTC - P2P - Simple, Secure, Fast, Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.",
+      "tags": [
+        "Video Conferencing"
+      ],
+      "source": "https://github.com/miroslavpejic85/mirotalk",
+      "website": "https://p2p.mirotalk.com",
+      "icon": "https://www.saashub.com/images/app/service_logos/213/pgzsasbgu5fr/large.png?1653219756",
+      "screenshots": [
+        "https://github.com/miroslavpejic85/mirotalk/raw/master/public/images/mirotalk-header.gif"
+      ],
+      "installationnotes": "Make sure to to change all the secrets and Passwords.",
+      "stars": 3028,
+      "forks": 558,
+      "watchers": 3028,
+      "issues": 5,
+      "last_updated": "2024-11-02T02:53:46Z",
+      "last_pushed": "2024-11-01T23:48:20Z",
+      "created_at": "2021-01-01T21:31:15Z",
+      "size": 40748,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "mirotalk-p2p"
+    },
+    {
+      "name": "Nats",
+      "description": "Connective Technology for Adaptive Edge & Distributed Systems",
+      "tags": [
+        "network",
+        "pubsub",
+        "microservices"
+      ],
+      "source": "https://github.com/nats-io/nats-server",
+      "website": "https://nats.io",
+      "icon": "https://avatars.githubusercontent.com/u/10203055?s=200&v=4",
+      "screenshots": [],
+      "stars": 15869,
+      "forks": 1404,
+      "watchers": 15869,
+      "issues": 374,
+      "last_updated": "2024-11-02T05:34:17Z",
+      "last_pushed": "2024-11-01T22:16:32Z",
+      "created_at": "2012-10-29T16:12:24Z",
+      "size": 39269,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "nats"
+    },
+    {
+      "name": "Homarr",
+      "description": "Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.",
+      "tags": [
+        "homepage"
+      ],
+      "source": "https://github.com/ajnart/homarr",
+      "website": "https://homarr.dev",
+      "icon": "https://github.com/ajnart/homarr/raw/dev/public/imgs/logo/logo-color.svg",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/71191962/169860380-856634fb-4f41-47cb-ba54-6a9e7b3b9c81.gif"
+      ],
+      "stars": 6139,
+      "forks": 282,
+      "watchers": 6139,
+      "issues": 178,
+      "last_updated": "2024-11-02T12:08:00Z",
+      "last_pushed": "2024-11-01T22:13:34Z",
+      "created_at": "2022-04-24T20:36:46Z",
+      "size": 15827,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "homarr"
+    },
+    {
+      "name": "Excalidraw",
+      "description": "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted.",
+      "tags": [
+        "drawing",
+        "collaboration",
+        "whiteboard"
+      ],
+      "source": "https://github.com/excalidraw/excalidraw",
+      "website": "https://excalidraw.com/",
+      "icon": "https://avatars.githubusercontent.com/u/59452120?s=200&v=4",
+      "screenshots": [
+        "https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png"
+      ],
+      "stars": 83860,
+      "forks": 7895,
+      "watchers": 83860,
+      "issues": 1901,
+      "last_updated": "2024-11-02T13:43:36Z",
+      "last_pushed": "2024-11-01T21:43:49Z",
+      "created_at": "2020-01-02T01:04:43Z",
+      "size": 85062,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "excalidraw"
+    },
+    {
+      "name": "Unleash",
+      "description": "Unleash is an open source feature management solution.",
+      "tags": [
+        "feature-toggle"
+      ],
+      "source": "https://github.com/Unleash/unleash",
+      "website": "https://getunleash.io/",
+      "icon": "https://avatars.githubusercontent.com/u/23053233?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Unleash/unleash/main/.github/github_online_demo.svg"
+      ],
+      "stars": 11339,
+      "forks": 708,
+      "watchers": 11339,
+      "issues": 49,
+      "last_updated": "2024-11-02T10:03:19Z",
+      "last_pushed": "2024-11-01T21:24:11Z",
+      "created_at": "2014-09-29T12:50:46Z",
+      "size": 250500,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "unleash"
+    },
+    {
+      "name": "changedetection.io",
+      "description": "A self-hosted free open source website change detection, monitor and notification service.",
+      "tags": [
+        "monitoring"
+      ],
+      "source": "https://github.com/dgtlmoon/changedetection.io",
+      "website": "https://changedetection.io/",
+      "icon": "https://changedetection.io/themes/cdio/assets/images/favicons/apple-touch-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png"
+      ],
+      "stars": 18367,
+      "forks": 1011,
+      "watchers": 18367,
+      "issues": 244,
+      "last_updated": "2024-11-02T14:40:55Z",
+      "last_pushed": "2024-11-01T18:09:50Z",
+      "created_at": "2021-01-27T16:03:30Z",
+      "size": 8746,
+      "language": "Python",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "changedetection"
+    },
+    {
+      "name": "Meilisearch",
+      "description": "A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow ",
+      "tags": [
+        "search"
+      ],
+      "source": "https://github.com/meilisearch/meilisearch",
+      "website": "https://www.meilisearch.com/",
+      "icon": "https://www.meilisearch.com/apple-touch-icon.png",
+      "screenshots": [
+        "https://github.com/meilisearch/meilisearch/raw/main/assets/demo-light.gif"
+      ],
+      "stars": 47192,
+      "forks": 1837,
+      "watchers": 47192,
+      "issues": 195,
+      "last_updated": "2024-11-02T13:05:00Z",
+      "last_pushed": "2024-11-01T17:46:23Z",
+      "created_at": "2018-04-23T11:45:28Z",
+      "size": 62528,
+      "language": "Rust",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "meilisearch"
     },
     {
       "name": "Hoppscotch",
@@ -472,12 +998,12 @@
       "screenshots": [
         "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/packages/hoppscotch-common/public/images/banner-light.png"
       ],
-      "stars": 65165,
-      "forks": 4528,
-      "watchers": 65165,
-      "issues": 464,
-      "last_updated": "2024-11-01T15:10:04Z",
-      "last_pushed": "2024-11-01T11:25:08Z",
+      "stars": 65186,
+      "forks": 4529,
+      "watchers": 65186,
+      "issues": 460,
+      "last_updated": "2024-11-02T14:37:27Z",
+      "last_pushed": "2024-11-01T17:30:02Z",
       "created_at": "2019-08-21T13:15:24Z",
       "size": 84276,
       "language": "TypeScript",
@@ -486,6 +1012,180 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "hopscotch"
+    },
+    {
+      "name": "Stirling PDF",
+      "description": "Stirling PDF is a hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.",
+      "tags": [
+        "PDF"
+      ],
+      "source": "https://github.com/Frooodle/Stirling-PDF",
+      "website": "https://github.com/Frooodle/Stirling-PDF",
+      "icon": "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/docs/stirling.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/images/stirling-home.png"
+      ],
+      "stars": 44323,
+      "forks": 3614,
+      "watchers": 44323,
+      "issues": 228,
+      "last_updated": "2024-11-02T14:31:24Z",
+      "last_pushed": "2024-11-01T16:55:43Z",
+      "created_at": "2023-01-27T18:22:42Z",
+      "size": 70213,
+      "language": "Java",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "sterlingpdf"
+    },
+    {
+      "name": "Coral",
+      "description": "A better onlne commenting experience from Vox Media",
+      "tags": [
+        "commments",
+        "community"
+      ],
+      "source": "https://github.com/coralproject/talk",
+      "website": "https://coralproject.net",
+      "documentation": [
+        "https://docs.coralproject.net/",
+        "https://github.com/coralproject/talk/blob/main/docs/docs/environment-variables.md"
+      ],
+      "icon": "https://avatars.githubusercontent.com/u/9255912?s=200&v=4",
+      "screenshots": null,
+      "stars": 1893,
+      "forks": 354,
+      "watchers": 1893,
+      "issues": 30,
+      "last_updated": "2024-11-01T16:31:28Z",
+      "last_pushed": "2024-11-01T16:08:41Z",
+      "created_at": "2016-10-31T16:14:05Z",
+      "size": 81302,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "coral"
+    },
+    {
+      "name": "Etherpad",
+      "description": "Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users.",
+      "tags": [
+        "collaboration",
+        "documents",
+        "editor",
+        "writing"
+      ],
+      "source": "https://github.com/ether/etherpad-lite",
+      "website": "https://etherpad.org/",
+      "documentation": [
+        "https://github.com/ether/etherpad-lite/blob/develop/doc/docker.md"
+      ],
+      "icon": "https://avatars.githubusercontent.com/u/181731?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/ether/etherpad-lite/develop/doc/images/etherpad_demo.gif"
+      ],
+      "stars": 16678,
+      "forks": 2852,
+      "watchers": 16678,
+      "issues": 121,
+      "last_updated": "2024-11-02T14:27:40Z",
+      "last_pushed": "2024-11-01T15:55:04Z",
+      "created_at": "2011-03-26T13:09:02Z",
+      "size": 41173,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "etherpad"
+    },
+    {
+      "name": "LimeSurvey",
+      "description": "LimeSurvey is the simple, quick and anonymous online survey tool that's bursting with juicy insights.",
+      "tags": [
+        "survel"
+      ],
+      "source": "https://github.com/LimeSurvey/LimeSurvey",
+      "website": "https://www.limesurvey.org",
+      "icon": "https://avatars.githubusercontent.com/u/1364105?s=200&v=4",
+      "documentation": "https://manual.limesurvey.org/LimeSurvey_Manual",
+      "screenshots": [
+        "https://manual.limesurvey.org/images/1/15/Surveys-alternative_button.png",
+        "https://manual.limesurvey.org/images/5/50/Newsurveyscreen.png"
+      ],
+      "stars": 2745,
+      "forks": 1000,
+      "watchers": 2745,
+      "issues": 110,
+      "last_updated": "2024-11-02T02:16:36Z",
+      "last_pushed": "2024-11-01T15:24:45Z",
+      "created_at": "2012-01-30T14:14:53Z",
+      "size": 1349869,
+      "language": "JavaScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "limesurvey"
+    },
+    {
+      "name": "Leantime",
+      "description": "Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind.",
+      "tags": [
+        "project-management"
+      ],
+      "source": "https://github.com/Leantime/leantime",
+      "website": "https://leantime.io/",
+      "icon": "https://avatars.githubusercontent.com/u/11252321?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/mywork.png",
+        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/dark.png",
+        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/kanban.png",
+        "https://raw.githubusercontent.com/Leantime/leantime/master/public/assets/images/Screenshots/timeline.png"
+      ],
+      "stars": 4560,
+      "forks": 592,
+      "watchers": 4560,
+      "issues": 254,
+      "last_updated": "2024-11-02T08:56:33Z",
+      "last_pushed": "2024-11-01T15:20:38Z",
+      "created_at": "2015-01-23T17:52:06Z",
+      "size": 185517,
+      "language": "PHP",
+      "gitops": false,
+      "status": "active",
+      "license": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "dirname": "leantime"
+    },
+    {
+      "name": "Docker Registry",
+      "description": "The Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images.",
+      "tags": [
+        "docker"
+      ],
+      "source": "https://github.com/distribution/distribution",
+      "website": "https://docs.docker.com/registry/",
+      "icon": "https://avatars.githubusercontent.com/u/5429470?s=200&v=4",
+      "screenshots": null,
+      "stars": 8966,
+      "forks": 2485,
+      "watchers": 8966,
+      "issues": 440,
+      "last_updated": "2024-11-02T10:07:06Z",
+      "last_pushed": "2024-11-01T12:45:02Z",
+      "created_at": "2014-12-22T23:49:26Z",
+      "size": 35512,
+      "language": "Go",
+      "gitops": false,
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "dockerregistry"
     },
     {
       "name": "Shiori",
@@ -501,11 +1201,11 @@
         "https://raw.githubusercontent.com/go-shiori/shiori/master/docs/screenshots/02-home.png",
         "https://raw.githubusercontent.com/go-shiori/shiori/master/docs/screenshots/04-options.png"
       ],
-      "stars": 9391,
+      "stars": 9397,
       "forks": 555,
-      "watchers": 9391,
+      "watchers": 9397,
       "issues": 79,
-      "last_updated": "2024-11-01T12:17:01Z",
+      "last_updated": "2024-11-02T14:40:13Z",
       "last_pushed": "2024-11-01T10:56:22Z",
       "created_at": "2018-01-23T13:57:11Z",
       "size": 45354,
@@ -545,117 +1245,6 @@
       "dirname": "keila"
     },
     {
-      "name": "MiroTalk P2P",
-      "description": "WebRTC - P2P - Simple, Secure, Fast, Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.",
-      "tags": [
-        "Video Conferencing"
-      ],
-      "source": "https://github.com/miroslavpejic85/mirotalk",
-      "website": "https://p2p.mirotalk.com",
-      "icon": "https://www.saashub.com/images/app/service_logos/213/pgzsasbgu5fr/large.png?1653219756",
-      "screenshots": [
-        "https://github.com/miroslavpejic85/mirotalk/raw/master/public/images/mirotalk-header.gif"
-      ],
-      "installationnotes": "Make sure to to change all the secrets and Passwords.",
-      "stars": 3029,
-      "forks": 558,
-      "watchers": 3029,
-      "issues": 5,
-      "last_updated": "2024-11-01T14:36:19Z",
-      "last_pushed": "2024-11-01T10:41:39Z",
-      "created_at": "2021-01-01T21:31:15Z",
-      "size": 40445,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "mirotalk-p2p"
-    },
-    {
-      "name": "changedetection.io",
-      "description": "A self-hosted free open source website change detection, monitor and notification service.",
-      "tags": [
-        "monitoring"
-      ],
-      "source": "https://github.com/dgtlmoon/changedetection.io",
-      "website": "https://changedetection.io/",
-      "icon": "https://changedetection.io/themes/cdio/assets/images/favicons/apple-touch-icon.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png"
-      ],
-      "stars": 18190,
-      "forks": 1005,
-      "watchers": 18190,
-      "issues": 240,
-      "last_updated": "2024-11-01T15:09:20Z",
-      "last_pushed": "2024-11-01T09:56:27Z",
-      "created_at": "2021-01-27T16:03:30Z",
-      "size": 8745,
-      "language": "Python",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "changedetection"
-    },
-    {
-      "name": "Appsmith",
-      "description": "Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.",
-      "tags": [
-        "admin-dashboard",
-        "workflows",
-        "app-builder"
-      ],
-      "source": "https://github.com/appsmithorg/appsmith",
-      "website": "https://www.appsmith.com",
-      "icon": "https://avatars.githubusercontent.com/u/67620218?s=200&v=4",
-      "screenshots": [
-        "https://images.ctfassets.net/lpvian6u6i39/57xRxbPxLB5Rx6YYCQstyW/d605683e09640cabbb15e9a9d65dc03d/img-cta.png"
-      ],
-      "stars": 34318,
-      "forks": 3716,
-      "watchers": 34318,
-      "issues": 3853,
-      "last_updated": "2024-11-01T14:04:30Z",
-      "last_pushed": "2024-11-01T09:48:43Z",
-      "created_at": "2020-06-30T04:07:36Z",
-      "size": 738099,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "appsmith"
-    },
-    {
-      "name": "Homarr",
-      "description": "Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.",
-      "tags": [
-        "homepage"
-      ],
-      "source": "https://github.com/ajnart/homarr",
-      "website": "https://homarr.dev",
-      "icon": "https://github.com/ajnart/homarr/raw/dev/public/imgs/logo/logo-color.svg",
-      "screenshots": [
-        "https://user-images.githubusercontent.com/71191962/169860380-856634fb-4f41-47cb-ba54-6a9e7b3b9c81.gif"
-      ],
-      "stars": 6136,
-      "forks": 281,
-      "watchers": 6136,
-      "issues": 178,
-      "last_updated": "2024-11-01T09:04:28Z",
-      "last_pushed": "2024-11-01T09:04:29Z",
-      "created_at": "2022-04-24T20:36:46Z",
-      "size": 15827,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "homarr"
-    },
-    {
       "name": "Stars Explorer",
       "description": "Explore star trends showing daily stars and go beyond the 40k-star limit.",
       "tags": [
@@ -683,31 +1272,6 @@
       "dirname": "daily-stars-explorer"
     },
     {
-      "name": "Ryot",
-      "description": "A self hosted platform for tracking various facets of your life - media, fitness etc.",
-      "tags": [
-        "metrics"
-      ],
-      "source": "https://github.com/ignisda/ryot",
-      "website": "https://github.com/ignisda/ryot",
-      "icon": "https://avatars.githubusercontent.com/u/60938164?v=4",
-      "screenshots": null,
-      "stars": 1962,
-      "forks": 53,
-      "watchers": 1962,
-      "issues": 17,
-      "last_updated": "2024-11-01T13:56:14Z",
-      "last_pushed": "2024-11-01T06:35:09Z",
-      "created_at": "2023-04-03T17:02:43Z",
-      "size": 30508,
-      "language": "Rust",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU General Public License v3.0",
-      "spdx_id": "GPL-3.0",
-      "dirname": "ryot"
-    },
-    {
       "name": "WordPress",
       "description": "WordPress is a free and open-source content management system written in hypertext preprocessor language.",
       "tags": [
@@ -722,7 +1286,7 @@
         "https://wordpress.org/documentation/files/2021/06/menu-add-items-1024x557.png"
       ],
       "stars": 19517,
-      "forks": 12542,
+      "forks": 12543,
       "watchers": 19517,
       "issues": 2,
       "last_updated": "2024-11-01T10:40:30Z",
@@ -735,37 +1299,6 @@
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "wordpress"
-    },
-    {
-      "name": "Databag",
-      "description": "A tiny selfhosted federated messenger for the decentralized web.",
-      "tags": [
-        "chat",
-        "messenger",
-        "federated",
-        "decentralized"
-      ],
-      "source": "https://github.com/balzack/databag",
-      "website": "https://github.com/balzack/databag",
-      "icon": "https://raw.githubusercontent.com/balzack/databag/main/doc/icon_v2.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/balzack/databag/main/doc/mobile.png",
-        "https://github.com/balzack/databag/blob/main/doc/browser.png"
-      ],
-      "stars": 892,
-      "forks": 48,
-      "watchers": 892,
-      "issues": 30,
-      "last_updated": "2024-11-01T15:13:00Z",
-      "last_pushed": "2024-11-01T05:09:58Z",
-      "created_at": "2021-12-20T21:45:16Z",
-      "size": 37954,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "databag"
     },
     {
       "name": "Activepieces",
@@ -782,11 +1315,11 @@
       "screenshots": [
         "https://github.com/activepieces/activepieces/assets/1812998/e75616ce-7801-45b7-b3fa-eba778bebde3"
       ],
-      "stars": 9681,
-      "forks": 1172,
-      "watchers": 9681,
+      "stars": 9692,
+      "forks": 1173,
+      "watchers": 9692,
       "issues": 137,
-      "last_updated": "2024-11-01T15:16:20Z",
+      "last_updated": "2024-11-02T11:12:07Z",
       "last_pushed": "2024-11-01T04:57:11Z",
       "created_at": "2022-12-03T02:52:46Z",
       "size": 198806,
@@ -796,60 +1329,6 @@
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "activepieces"
-    },
-    {
-      "name": "gitea",
-      "description": "Painless self-hosted all-in-one software development service, includes Git hosting, code review, team collaboration, package registry and CI/CD",
-      "tags": [
-        "git repository",
-        "git"
-      ],
-      "source": "https://github.com/go-gitea/gitea",
-      "website": "https://gitea.io/",
-      "icon": "https://avatars.githubusercontent.com/u/12724356?s=200&v=4",
-      "screenshots": [
-        "https://camo.githubusercontent.com/134f49a62801ab393c211125515d108439c67b59befb2ec3e42e7235af4f5d6c/68747470733a2f2f646c2e67697465612e696f2f73637265656e73686f74732f686f6d655f74696d656c696e652e706e67",
-        "https://camo.githubusercontent.com/186c2a4c286dcb5e6c419ae11c062721ba73eafcc40e518f237adcc9985385db/68747470733a2f2f646c2e67697465612e696f2f73637265656e73686f74732f757365725f70726f66696c652e706e67"
-      ],
-      "stars": 44855,
-      "forks": 5474,
-      "watchers": 44855,
-      "issues": 2752,
-      "last_updated": "2024-11-01T15:11:55Z",
-      "last_pushed": "2024-11-01T03:53:59Z",
-      "created_at": "2016-11-01T02:13:26Z",
-      "size": 290270,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "gitea"
-    },
-    {
-      "name": "Homebox",
-      "description": "Homebox is the inventory and organization system built for the Home User",
-      "tags": [
-        "Search"
-      ],
-      "source": "https://github.com/sysadminsmedia/homebox",
-      "website": "https://homebox.software",
-      "icon": "https://homebox.software/lilbox.svg",
-      "screenshots": null,
-      "stars": 1066,
-      "forks": 59,
-      "watchers": 1066,
-      "issues": 78,
-      "last_updated": "2024-11-01T02:01:39Z",
-      "last_pushed": "2024-11-01T02:01:35Z",
-      "created_at": "2024-06-17T18:07:09Z",
-      "size": 47815,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "homebox"
     },
     {
       "name": "Gatus",
@@ -863,11 +1342,11 @@
       "screenshots": [
         "https://github.com/TwiN/gatus/raw/master/.github/assets/dashboard-dark.png"
       ],
-      "stars": 6238,
-      "forks": 421,
-      "watchers": 6238,
+      "stars": 6251,
+      "forks": 422,
+      "watchers": 6251,
       "issues": 173,
-      "last_updated": "2024-11-01T15:01:33Z",
+      "last_updated": "2024-11-02T14:41:15Z",
       "last_pushed": "2024-11-01T00:29:48Z",
       "created_at": "2019-09-04T02:35:40Z",
       "size": 33730,
@@ -877,6 +1356,33 @@
       "license": "Apache License 2.0",
       "spdx_id": "Apache-2.0",
       "dirname": "gatus"
+    },
+    {
+      "name": "Atuin",
+      "description": "Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands.",
+      "tags": [
+        "administration"
+      ],
+      "source": "https://github.com/atuinsh/atuin",
+      "website": "https://atuin.sh/",
+      "icon": "https://avatars.githubusercontent.com/u/122059230?s=200&v=4",
+      "screenshots": [
+        "https://raw.githubusercontent.com/atuinsh/atuin/main/demo.gif"
+      ],
+      "stars": 20718,
+      "forks": 563,
+      "watchers": 20718,
+      "issues": 262,
+      "last_updated": "2024-11-02T12:20:00Z",
+      "last_pushed": "2024-11-01T00:21:34Z",
+      "created_at": "2020-10-04T23:01:58Z",
+      "size": 46577,
+      "language": "Rust",
+      "gitops": false,
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "atuin"
     },
     {
       "name": "Whoogle",
@@ -891,11 +1397,11 @@
         "https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_desktop.png",
         "https://raw.githubusercontent.com/benbusby/whoogle-search/main/docs/screenshot_mobile.png"
       ],
-      "stars": 9542,
-      "forks": 938,
-      "watchers": 9542,
-      "issues": 65,
-      "last_updated": "2024-11-01T13:25:11Z",
+      "stars": 9545,
+      "forks": 939,
+      "watchers": 9545,
+      "issues": 66,
+      "last_updated": "2024-11-02T10:49:01Z",
       "last_pushed": "2024-10-31T23:48:17Z",
       "created_at": "2020-01-21T20:22:33Z",
       "size": 2617,
@@ -905,119 +1411,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "whoogle"
-    },
-    {
-      "name": "phpMyAdmin",
-      "description": "phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL and MariaDB over the Web.",
-      "tags": [
-        "database",
-        "administration"
-      ],
-      "source": "https://github.com/phpmyadmin/phpmyadmin",
-      "website": "https://www.phpmyadmin.net/",
-      "icon": "https://avatars.githubusercontent.com/u/1351977?s=200&v=4",
-      "screenshots": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/13/PhpMyAdmin-main-en.png"
-      ],
-      "stars": 7263,
-      "forks": 3401,
-      "watchers": 7263,
-      "issues": 834,
-      "last_updated": "2024-11-01T04:27:45Z",
-      "last_pushed": "2024-10-31T23:35:21Z",
-      "created_at": "2012-01-19T13:21:52Z",
-      "size": 2026248,
-      "language": "PHP",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU General Public License v2.0",
-      "spdx_id": "GPL-2.0",
-      "dirname": "phpmyadmin"
-    },
-    {
-      "name": "opengist",
-      "description": "Self-hosted pastebin powered by Git, open-source alternative to Github Gist.",
-      "tags": [
-        "editor",
-        "pastebin"
-      ],
-      "source": "https://github.com/thomiceli/opengist",
-      "website": "https://github.com/thomiceli/opengist",
-      "documentation": null,
-      "icon": "https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg",
-      "screenshots": null,
-      "stars": 1793,
-      "forks": 97,
-      "watchers": 1793,
-      "issues": 41,
-      "last_updated": "2024-11-01T13:08:55Z",
-      "last_pushed": "2024-10-31T23:03:29Z",
-      "created_at": "2023-04-10T20:58:35Z",
-      "size": 2303,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "opengist"
-    },
-    {
-      "name": "Rallly",
-      "description": "Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.",
-      "tags": [
-        "collaboration",
-        "scheduling"
-      ],
-      "source": "https://github.com/lukevella/rallly",
-      "website": "https://rallly.co",
-      "documentation": [
-        "https://github.com/lukevella/rallly-selfhosted"
-      ],
-      "icon": "https://rallly.co/favicon-196x196.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/lukevella/rallly/main/docs/images/poll-image.png"
-      ],
-      "stars": 3635,
-      "forks": 342,
-      "watchers": 3635,
-      "issues": 18,
-      "last_updated": "2024-11-01T12:14:27Z",
-      "last_pushed": "2024-10-31T22:43:26Z",
-      "created_at": "2015-01-27T17:01:38Z",
-      "size": 31149,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "rallly"
-    },
-    {
-      "name": "Stirling PDF",
-      "description": "Stirling PDF is a hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.",
-      "tags": [
-        "PDF"
-      ],
-      "source": "https://github.com/Frooodle/Stirling-PDF",
-      "website": "https://github.com/Frooodle/Stirling-PDF",
-      "icon": "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/docs/stirling.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/Frooodle/Stirling-PDF/main/images/stirling-home.png"
-      ],
-      "stars": 44277,
-      "forks": 3608,
-      "watchers": 44277,
-      "issues": 223,
-      "last_updated": "2024-11-01T15:05:13Z",
-      "last_pushed": "2024-10-31T21:54:41Z",
-      "created_at": "2023-01-27T18:22:42Z",
-      "size": 70178,
-      "language": "Java",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "sterlingpdf"
     },
     {
       "name": "Homer",
@@ -1032,11 +1425,11 @@
       "screenshots": [
         "https://camo.githubusercontent.com/22f0b90b2c9ec4f1c9ec9ed920bb7b794bc1f1ac93bf61099ef298369b8850e5/68747470733a2f2f7261772e6769746875622e636f6d2f6261737469656e776972747a2f686f6d65722f6d61696e2f646f63732f73637265656e73686f742e706e67"
       ],
-      "stars": 9266,
+      "stars": 9268,
       "forks": 783,
-      "watchers": 9266,
+      "watchers": 9268,
       "issues": 167,
-      "last_updated": "2024-11-01T09:12:41Z",
+      "last_updated": "2024-11-01T20:39:27Z",
       "last_pushed": "2024-10-31T20:32:08Z",
       "created_at": "2018-06-14T04:57:54Z",
       "size": 4439,
@@ -1059,11 +1452,11 @@
       "screenshots": [
         "https://lycheeorg.github.io/assets/3.BzY-5hAj.jpg"
       ],
-      "stars": 3385,
+      "stars": 3391,
       "forks": 300,
-      "watchers": 3385,
+      "watchers": 3391,
       "issues": 111,
-      "last_updated": "2024-11-01T15:00:53Z",
+      "last_updated": "2024-11-02T05:44:36Z",
       "last_pushed": "2024-10-31T19:32:42Z",
       "created_at": "2018-08-08T07:19:08Z",
       "size": 155621,
@@ -1089,7 +1482,7 @@
         "https://camo.githubusercontent.com/e417a4c766f2f3245803f93ed2bdad17d13f20d114330e2436f91ecfadd1e7bf/68747470733a2f2f6a2e676966732e636f6d2f6b3567384f4a2e676966"
       ],
       "stars": 2116,
-      "forks": 401,
+      "forks": 402,
       "watchers": 2116,
       "issues": 88,
       "last_updated": "2024-10-31T19:07:28Z",
@@ -1116,11 +1509,11 @@
       "screenshots": [
         "https://user-images.githubusercontent.com/303966/99915755-32f78e80-2ccb-11eb-9f74-b18846d6108d.png"
       ],
-      "stars": 5049,
+      "stars": 5051,
       "forks": 785,
-      "watchers": 5049,
+      "watchers": 5051,
       "issues": 88,
-      "last_updated": "2024-11-01T11:06:10Z",
+      "last_updated": "2024-11-02T10:22:11Z",
       "last_pushed": "2024-10-31T18:33:34Z",
       "created_at": "2014-05-29T03:09:24Z",
       "size": 33514,
@@ -1130,120 +1523,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "sqlpad"
-    },
-    {
-      "name": "Joomla",
-      "description": "Joomla is a free and open-source content management system for publishing web content on websites.",
-      "tags": [
-        "CMS"
-      ],
-      "source": "https://github.com/joomla/joomla-cms",
-      "website": "https://joomla.org",
-      "icon": "https://avatars.githubusercontent.com/u/751633?s=200&v=4",
-      "screenshots": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/96/Backend_Joomla_4_en.png"
-      ],
-      "stars": 4767,
-      "forks": 3647,
-      "watchers": 4767,
-      "issues": 1042,
-      "last_updated": "2024-11-01T12:21:01Z",
-      "last_pushed": "2024-10-31T17:28:55Z",
-      "created_at": "2011-09-27T02:07:38Z",
-      "size": 338618,
-      "language": "PHP",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU General Public License v2.0",
-      "spdx_id": "GPL-2.0",
-      "dirname": "joomla"
-    },
-    {
-      "name": "DrawDB",
-      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
-      "tags": [
-        "developer-tools"
-      ],
-      "source": "https://github.com/drawdb-io/drawdb",
-      "website": "https://drawdb.app/",
-      "icon": "https://avatars.githubusercontent.com/u/139706923?s=200&v=4",
-      "screenshots": [
-        "https://raw.githubusercontent.com/drawdb-io/.github/main/profile/assets/cover.png"
-      ],
-      "stars": 21687,
-      "forks": 1532,
-      "watchers": 21687,
-      "issues": 71,
-      "last_updated": "2024-11-01T15:10:08Z",
-      "last_pushed": "2024-10-31T16:46:28Z",
-      "created_at": "2023-07-16T17:09:20Z",
-      "size": 4845,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "drawdb"
-    },
-    {
-      "name": "Meilisearch",
-      "description": "A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow ",
-      "tags": [
-        "search"
-      ],
-      "source": "https://github.com/meilisearch/meilisearch",
-      "website": "https://www.meilisearch.com/",
-      "icon": "https://www.meilisearch.com/apple-touch-icon.png",
-      "screenshots": [
-        "https://github.com/meilisearch/meilisearch/raw/main/assets/demo-light.gif"
-      ],
-      "stars": 47166,
-      "forks": 1836,
-      "watchers": 47166,
-      "issues": 194,
-      "last_updated": "2024-11-01T14:43:49Z",
-      "last_pushed": "2024-10-31T16:40:19Z",
-      "created_at": "2018-04-23T11:45:28Z",
-      "size": 62524,
-      "language": "Rust",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "meilisearch"
-    },
-    {
-      "name": "Etherpad",
-      "description": "Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users.",
-      "tags": [
-        "collaboration",
-        "documents",
-        "editor",
-        "writing"
-      ],
-      "source": "https://github.com/ether/etherpad-lite",
-      "website": "https://etherpad.org/",
-      "documentation": [
-        "https://github.com/ether/etherpad-lite/blob/develop/doc/docker.md"
-      ],
-      "icon": "https://avatars.githubusercontent.com/u/181731?s=200&v=4",
-      "screenshots": [
-        "https://raw.githubusercontent.com/ether/etherpad-lite/develop/doc/images/etherpad_demo.gif"
-      ],
-      "stars": 16665,
-      "forks": 2853,
-      "watchers": 16665,
-      "issues": 120,
-      "last_updated": "2024-11-01T15:05:49Z",
-      "last_pushed": "2024-10-31T15:25:08Z",
-      "created_at": "2011-03-26T13:09:02Z",
-      "size": 41052,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "etherpad"
     },
     {
       "name": "Planka",
@@ -1257,11 +1536,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/plankanban/planka/master/demo.gif"
       ],
-      "stars": 7970,
-      "forks": 740,
-      "watchers": 7970,
+      "stars": 7977,
+      "forks": 741,
+      "watchers": 7977,
       "issues": 296,
-      "last_updated": "2024-11-01T15:10:11Z",
+      "last_updated": "2024-11-02T14:32:12Z",
       "last_pushed": "2024-10-31T14:00:00Z",
       "created_at": "2019-08-30T20:35:36Z",
       "size": 48259,
@@ -1271,60 +1550,6 @@
       "license": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
       "dirname": "planka"
-    },
-    {
-      "name": "pgAdmin",
-      "description": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL.",
-      "tags": [
-        "database"
-      ],
-      "source": "https://github.com/pgadmin-org/pgadmin4",
-      "website": "https://www.pgadmin.org",
-      "icon": "https://avatars.githubusercontent.com/u/113517144?s=200&v=4",
-      "screenshots": null,
-      "stars": 2505,
-      "forks": 651,
-      "watchers": 2505,
-      "issues": 372,
-      "last_updated": "2024-10-31T13:53:59Z",
-      "last_pushed": "2024-10-31T13:53:55Z",
-      "created_at": "2017-02-20T11:54:13Z",
-      "size": 313207,
-      "language": "Python",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "pgadmin"
-    },
-    {
-      "name": "LimeSurvey",
-      "description": "LimeSurvey is the simple, quick and anonymous online survey tool that's bursting with juicy insights.",
-      "tags": [
-        "survel"
-      ],
-      "source": "https://github.com/LimeSurvey/LimeSurvey",
-      "website": "https://www.limesurvey.org",
-      "icon": "https://avatars.githubusercontent.com/u/1364105?s=200&v=4",
-      "documentation": "https://manual.limesurvey.org/LimeSurvey_Manual",
-      "screenshots": [
-        "https://manual.limesurvey.org/images/1/15/Surveys-alternative_button.png",
-        "https://manual.limesurvey.org/images/5/50/Newsurveyscreen.png"
-      ],
-      "stars": 2744,
-      "forks": 1000,
-      "watchers": 2744,
-      "issues": 110,
-      "last_updated": "2024-10-31T11:00:12Z",
-      "last_pushed": "2024-10-31T11:33:10Z",
-      "created_at": "2012-01-30T14:14:53Z",
-      "size": 1349867,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "limesurvey"
     },
     {
       "name": "Symfony",
@@ -1337,11 +1562,11 @@
       "website": "https://symfony.com",
       "icon": "https://avatars.githubusercontent.com/u/143937?s=200&v=4",
       "screenshots": null,
-      "stars": 29777,
-      "forks": 9465,
-      "watchers": 29777,
-      "issues": 859,
-      "last_updated": "2024-11-01T14:48:08Z",
+      "stars": 29780,
+      "forks": 9466,
+      "watchers": 29780,
+      "issues": 862,
+      "last_updated": "2024-11-02T13:12:47Z",
       "last_pushed": "2024-10-31T10:59:54Z",
       "created_at": "2010-01-04T14:21:21Z",
       "size": 286373,
@@ -1368,11 +1593,11 @@
         "https://www.bookstackapp.com/images/screenshots/book-sorting.png",
         "https://www.bookstackapp.com/images/screenshots/search.png"
       ],
-      "stars": 15260,
-      "forks": 1903,
-      "watchers": 15260,
-      "issues": 604,
-      "last_updated": "2024-11-01T14:24:36Z",
+      "stars": 15263,
+      "forks": 1904,
+      "watchers": 15263,
+      "issues": 603,
+      "last_updated": "2024-11-01T19:19:26Z",
       "last_pushed": "2024-10-31T09:46:36Z",
       "created_at": "2015-08-29T10:26:44Z",
       "size": 42926,
@@ -1403,11 +1628,11 @@
           "message": "Requires large Nodes with a lot of memory. >= 8GB recommended."
         }
       ],
-      "stars": 5668,
+      "stars": 5671,
       "forks": 407,
-      "watchers": 5668,
+      "watchers": 5671,
       "issues": 27,
-      "last_updated": "2024-11-01T11:52:54Z",
+      "last_updated": "2024-11-02T11:12:41Z",
       "last_pushed": "2024-10-31T08:58:23Z",
       "created_at": "2023-03-19T08:33:29Z",
       "size": 3841,
@@ -1429,11 +1654,11 @@
       "screenshots": [
         "https://i.ibb.co/L8YbNNc/dashy-demo2.gif"
       ],
-      "stars": 17514,
-      "forks": 1335,
-      "watchers": 17514,
+      "stars": 17568,
+      "forks": 1339,
+      "watchers": 17568,
       "issues": 105,
-      "last_updated": "2024-11-01T15:12:03Z",
+      "last_updated": "2024-11-02T14:38:13Z",
       "last_pushed": "2024-10-31T01:51:58Z",
       "created_at": "2021-02-28T10:35:44Z",
       "size": 800191,
@@ -1443,60 +1668,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "dashy"
-    },
-    {
-      "name": "Memos",
-      "description": "Memos is a simple note taking app. ",
-      "tags": [
-        "note taking"
-      ],
-      "source": "https://github.com/usememos/memos",
-      "website": "https://usememos.com/",
-      "icon": "https://avatars.githubusercontent.com/u/95764151?s=200&v=4",
-      "screenshots": [
-        "https://usememos.com/demo.webp"
-      ],
-      "stars": 32639,
-      "forks": 2408,
-      "watchers": 32639,
-      "issues": 38,
-      "last_updated": "2024-11-01T15:12:28Z",
-      "last_pushed": "2024-10-30T13:52:38Z",
-      "created_at": "2021-12-08T15:30:18Z",
-      "size": 32749,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "memos"
-    },
-    {
-      "name": "Kuma",
-      "description": "Kuma is a self-hosted monitoring tool like \"Uptime Robot\". ",
-      "tags": [
-        "monitoring"
-      ],
-      "source": "https://github.com/louislam/uptime-kuma",
-      "website": "https://uptime.kuma.pet",
-      "icon": "https://github.com/louislam/uptime-kuma/raw/master/public/icon.svg",
-      "screenshots": [
-        "https://camo.githubusercontent.com/9674a2b1b7d094b060fd79e6df7dca10b86a484ce6015b2668cff768dfc786ee/68747470733a2f2f757074696d652e6b756d612e7065742f696d672f6461726b2e6a7067"
-      ],
-      "stars": 58355,
-      "forks": 5260,
-      "watchers": 58355,
-      "issues": 700,
-      "last_updated": "2024-11-01T15:02:44Z",
-      "last_pushed": "2024-10-30T07:44:53Z",
-      "created_at": "2021-07-03T01:02:42Z",
-      "size": 27383,
-      "language": "JavaScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "kuma"
     },
     {
       "name": "umami",
@@ -1510,11 +1681,11 @@
       "screenshots": [
         "https://umami.is/images/languages.png"
       ],
-      "stars": 22532,
-      "forks": 4206,
-      "watchers": 22532,
-      "issues": 89,
-      "last_updated": "2024-11-01T15:05:03Z",
+      "stars": 22539,
+      "forks": 4209,
+      "watchers": 22539,
+      "issues": 94,
+      "last_updated": "2024-11-02T10:53:17Z",
       "last_pushed": "2024-10-30T01:30:09Z",
       "created_at": "2020-07-17T07:59:00Z",
       "size": 16133,
@@ -1535,11 +1706,11 @@
       "website": "https://github.com/bluesky-social/pds",
       "icon": "https://avatars.githubusercontent.com/u/94650532?s=200&v=4",
       "screenshots": null,
-      "stars": 973,
-      "forks": 89,
-      "watchers": 973,
-      "issues": 44,
-      "last_updated": "2024-11-01T14:33:38Z",
+      "stars": 978,
+      "forks": 91,
+      "watchers": 978,
+      "issues": 45,
+      "last_updated": "2024-11-02T13:59:08Z",
       "last_pushed": "2024-10-29T23:25:04Z",
       "created_at": "2023-05-01T20:08:15Z",
       "size": 463,
@@ -1549,33 +1720,6 @@
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "bluesky-pds"
-    },
-    {
-      "name": "Gotify",
-      "description": "Gotify is a simple server for sending and receiving messages (in real time per WebSocket)",
-      "tags": [
-        "monitoring"
-      ],
-      "source": "https://github.com/gotify/server",
-      "website": "https://gotify-net",
-      "icon": "https://raw.githubusercontent.com/gotify/logo/master/gotify-logo.png",
-      "screenshots": [
-        "https://github.com/gotify/server/raw/master/ui.png"
-      ],
-      "stars": 11363,
-      "forks": 632,
-      "watchers": 11363,
-      "issues": 55,
-      "last_updated": "2024-11-01T12:56:45Z",
-      "last_pushed": "2024-10-29T22:00:32Z",
-      "created_at": "2018-01-15T20:25:27Z",
-      "size": 3500,
-      "language": "Go",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "gotify"
     },
     {
       "name": "MongoDB Express",
@@ -1592,11 +1736,11 @@
         "https://imgur.com/UmGSr3x.png",
         "https://imgur.com/lL38abn.png"
       ],
-      "stars": 5567,
-      "forks": 956,
-      "watchers": 5567,
+      "stars": 5568,
+      "forks": 958,
+      "watchers": 5568,
       "issues": 167,
-      "last_updated": "2024-10-30T06:30:04Z",
+      "last_updated": "2024-11-02T12:10:56Z",
       "last_pushed": "2024-10-29T12:14:40Z",
       "created_at": "2012-04-23T20:11:25Z",
       "size": 14912,
@@ -1606,33 +1750,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "mongodb-express"
-    },
-    {
-      "name": "Kanboard",
-      "description": "Kanboard is a free and open source project management software focused on the Kanban methodology.",
-      "tags": [
-        "project-management"
-      ],
-      "source": "https://github.com/kanboard/kanboard",
-      "website": "https://kanboard.org",
-      "icon": "https://avatars.githubusercontent.com/u/13722943?s=200&v=4",
-      "screenshots": [
-        "https://kanboard.org/assets/img/board.png"
-      ],
-      "stars": 8485,
-      "forks": 1801,
-      "watchers": 8485,
-      "issues": 153,
-      "last_updated": "2024-11-01T12:04:48Z",
-      "last_pushed": "2024-10-29T00:44:55Z",
-      "created_at": "2014-01-25T19:58:30Z",
-      "size": 92870,
-      "language": "PHP",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "kanboard"
     },
     {
       "name": "Fief",
@@ -1651,7 +1768,7 @@
       "stars": 563,
       "forks": 50,
       "watchers": 563,
-      "issues": 20,
+      "issues": 21,
       "last_updated": "2024-10-31T08:24:46Z",
       "last_pushed": "2024-10-28T21:46:42Z",
       "created_at": "2022-01-03T16:21:47Z",
@@ -1673,11 +1790,11 @@
       "website": "https://it-tools.tech/",
       "icon": "https://raw.githubusercontent.com/CorentinTh/it-tools/main/public/mstile-144x144.png",
       "screenshots": null,
-      "stars": 22548,
-      "forks": 2730,
-      "watchers": 22548,
+      "stars": 22572,
+      "forks": 2732,
+      "watchers": 22572,
       "issues": 560,
-      "last_updated": "2024-11-01T14:45:24Z",
+      "last_updated": "2024-11-02T13:39:13Z",
       "last_pushed": "2024-10-27T14:07:56Z",
       "created_at": "2020-04-05T11:50:24Z",
       "size": 12711,
@@ -1699,11 +1816,11 @@
       "website": "https://github.com/dani-garcia/vaultwarden",
       "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg",
       "screenshots": null,
-      "stars": 38520,
+      "stars": 38540,
       "forks": 1872,
-      "watchers": 38520,
+      "watchers": 38540,
       "issues": 20,
-      "last_updated": "2024-11-01T14:58:17Z",
+      "last_updated": "2024-11-02T12:37:39Z",
       "last_pushed": "2024-10-27T13:53:13Z",
       "created_at": "2018-02-17T22:40:20Z",
       "size": 9747,
@@ -1728,11 +1845,11 @@
         "https://casdoor.org/assets/images/dashboard-951aa5187e74f5446a91447e00111c79.png",
         "https://casdoor.org/assets/images/step4_result2-5f31450f52b9f797c8f1afcf2fd19914.png"
       ],
-      "stars": 10107,
+      "stars": 10110,
       "forks": 1193,
-      "watchers": 10107,
-      "issues": 102,
-      "last_updated": "2024-11-01T15:00:58Z",
+      "watchers": 10110,
+      "issues": 104,
+      "last_updated": "2024-11-02T13:49:38Z",
       "last_pushed": "2024-10-27T06:21:31Z",
       "created_at": "2020-10-22T14:40:03Z",
       "size": 36004,
@@ -1815,11 +1932,11 @@
         "https://d4.alternativeto.net/AsvhGcW3WdllXHft46cSiW5yq_l3bgdyf1-EARYjSzU/rs:fit:1200:1200:0/g:ce:0:0/YWJzOi8vZGlzdC9zL21vc3Bhcm9fMjgyMjI5X2Z1bGwuanBn.jpg",
         "https://d4.alternativeto.net/8jPSunVUELUMLlyhW0UjOYFCQm9uKkgwE38WdUYm0V4/rs:fit:1200:1200:0/g:ce:0:0/YWJzOi8vZGlzdC9zL21vc3Bhcm9fMjYzNjQ4X2Z1bGwuanBn.jpg"
       ],
-      "stars": 192,
+      "stars": 193,
       "forks": 13,
-      "watchers": 192,
+      "watchers": 193,
       "issues": 10,
-      "last_updated": "2024-10-29T11:27:57Z",
+      "last_updated": "2024-11-02T14:05:54Z",
       "last_pushed": "2024-10-26T10:07:32Z",
       "created_at": "2021-06-14T08:30:43Z",
       "size": 4663,
@@ -1831,66 +1948,6 @@
       "dirname": "mosparo"
     },
     {
-      "name": "MicroBin",
-      "description": "A tiny, self-contained, configurable paste bin and URL shortener written in Rust.",
-      "tags": [
-        "pastebin"
-      ],
-      "source": "https://github.com/szabodanika/microbin",
-      "website": "https://microbin.eu/",
-      "icon": "https://raw.githubusercontent.com/szabodanika/microbin/refs/heads/master/templates/assets/logo-square.png",
-      "screenshots": [
-        "https://microbin.eu/img/screenshot7.png",
-        "https://microbin.eu/img/screenshot6.png",
-        "https://microbin.eu/img/screenshot1.png",
-        "https://microbin.eu/img/screenshot4.png",
-        "https://microbin.eu/img/screenshot5.png",
-        "https://microbin.eu/img/screenshot3.png",
-        "https://microbin.eu/img/screenshot2.png"
-      ],
-      "stars": 2691,
-      "forks": 168,
-      "watchers": 2691,
-      "issues": 103,
-      "last_updated": "2024-11-01T15:13:32Z",
-      "last_pushed": "2024-10-24T04:55:45Z",
-      "created_at": "2022-04-10T22:21:27Z",
-      "size": 5603,
-      "language": "Rust",
-      "gitops": false,
-      "status": "active",
-      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-      "spdx_id": "BSD-3-Clause",
-      "dirname": "microbin"
-    },
-    {
-      "name": "Photoview",
-      "description": "Photoview is a simple and user-friendly photo gallery that is made for photographers and aims to provide an easy and fast way to navigate directories.",
-      "tags": [
-        "imaga database"
-      ],
-      "source": "https://github.com/photoview/photoview",
-      "website": "https://photoview.github.io/",
-      "icon": "https://avatars.githubusercontent.com/u/75802894?s=200&v=4",
-      "screenshots": [
-        "https://raw.githubusercontent.com/photoview/photoview/master/screenshots/timeline.png"
-      ],
-      "stars": 5267,
-      "forks": 396,
-      "watchers": 5267,
-      "issues": 183,
-      "last_updated": "2024-11-01T10:41:44Z",
-      "last_pushed": "2024-10-23T18:40:14Z",
-      "created_at": "2019-07-07T13:55:00Z",
-      "size": 55843,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "GNU Affero General Public License v3.0",
-      "spdx_id": "AGPL-3.0",
-      "dirname": "photoview"
-    },
-    {
       "name": "CyberChef",
       "description": "CyberChef is a simple, intuitive web app for carrying out all manner of \"cyber\" operations within a web browser.",
       "tags": [
@@ -1900,11 +1957,11 @@
       "website": "https://github.com/gchq/CyberChef",
       "icon": "https://www.freepnglogos.com/uploads/chef-png/chef-icon-33.png",
       "screenshots": null,
-      "stars": 29083,
+      "stars": 29097,
       "forks": 3257,
-      "watchers": 29083,
+      "watchers": 29097,
       "issues": 506,
-      "last_updated": "2024-11-01T14:24:47Z",
+      "last_updated": "2024-11-02T14:20:30Z",
       "last_pushed": "2024-10-23T15:17:30Z",
       "created_at": "2016-11-28T10:34:07Z",
       "size": 92421,
@@ -1926,11 +1983,11 @@
       "website": "https://laravel.com",
       "icon": "https://avatars.githubusercontent.com/u/958072?s=200&v=4",
       "screenshots": null,
-      "stars": 78687,
+      "stars": 78694,
       "forks": 24069,
-      "watchers": 78687,
-      "issues": 30,
-      "last_updated": "2024-11-01T15:13:43Z",
+      "watchers": 78694,
+      "issues": 31,
+      "last_updated": "2024-11-02T14:28:35Z",
       "last_pushed": "2024-10-23T13:02:59Z",
       "created_at": "2011-06-08T03:06:08Z",
       "size": 10761,
@@ -1953,11 +2010,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/alexta69/metube/master/screenshot.gif"
       ],
-      "stars": 6748,
+      "stars": 6756,
       "forks": 420,
-      "watchers": 6748,
-      "issues": 118,
-      "last_updated": "2024-11-01T15:01:50Z",
+      "watchers": 6756,
+      "issues": 121,
+      "last_updated": "2024-11-02T11:19:39Z",
       "last_pushed": "2024-10-23T06:05:50Z",
       "created_at": "2019-11-29T17:24:51Z",
       "size": 5072,
@@ -1978,11 +2035,11 @@
       "website": "https://js.wiki/",
       "icon": "https://raw.githubusercontent.com/requarks/wiki/main/client/static/favicons/android-chrome-256x256.png",
       "screenshots": null,
-      "stars": 24665,
+      "stars": 24668,
       "forks": 2727,
-      "watchers": 24665,
+      "watchers": 24668,
       "issues": 160,
-      "last_updated": "2024-11-01T13:31:32Z",
+      "last_updated": "2024-11-02T14:28:11Z",
       "last_pushed": "2024-10-21T04:58:38Z",
       "created_at": "2016-08-16T19:35:26Z",
       "size": 39707,
@@ -2011,11 +2068,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/BaldissaraMatheus/Tasks.md/main/public/demonstration.gif"
       ],
-      "stars": 901,
+      "stars": 902,
       "forks": 36,
-      "watchers": 901,
+      "watchers": 902,
       "issues": 17,
-      "last_updated": "2024-11-01T14:23:31Z",
+      "last_updated": "2024-11-01T20:13:23Z",
       "last_pushed": "2024-10-16T22:07:24Z",
       "created_at": "2023-02-26T21:19:33Z",
       "size": 7222,
@@ -2065,7 +2122,7 @@
         "https://docs.authorizer.dev/images/authorizer-arch.png"
       ],
       "stars": 1592,
-      "forks": 160,
+      "forks": 161,
       "watchers": 1592,
       "issues": 82,
       "last_updated": "2024-11-01T12:25:55Z",
@@ -2118,11 +2175,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/nirui/sshwifty/master/Screenshot.png"
       ],
-      "stars": 2412,
-      "forks": 362,
-      "watchers": 2412,
+      "stars": 2415,
+      "forks": 363,
+      "watchers": 2415,
       "issues": 29,
-      "last_updated": "2024-10-31T12:19:10Z",
+      "last_updated": "2024-11-02T12:50:33Z",
       "last_pushed": "2024-10-11T11:07:08Z",
       "created_at": "2019-08-07T03:43:18Z",
       "size": 15274,
@@ -2147,11 +2204,11 @@
       "screenshots": [
         "https://github.com/andrii-kryvoviaz/slink/raw/main/screens/e98ea79e-01bb-4e23-98ba-b18841d09c9b.png"
       ],
-      "stars": 305,
+      "stars": 306,
       "forks": 9,
-      "watchers": 305,
+      "watchers": 306,
       "issues": 11,
-      "last_updated": "2024-10-30T18:48:34Z",
+      "last_updated": "2024-11-01T17:07:32Z",
       "last_pushed": "2024-10-08T19:31:03Z",
       "created_at": "2023-11-06T22:22:08Z",
       "size": 8647,
@@ -2179,11 +2236,11 @@
         "https://ntfy.sh/static/img/screenshot-phone-notification.jpg",
         "https://ntfy.sh/static/img/screenshot-phone-detail.jpg"
       ],
-      "stars": 18294,
-      "forks": 717,
-      "watchers": 18294,
-      "issues": 292,
-      "last_updated": "2024-11-01T14:44:37Z",
+      "stars": 18297,
+      "forks": 716,
+      "watchers": 18297,
+      "issues": 293,
+      "last_updated": "2024-11-01T21:21:29Z",
       "last_pushed": "2024-09-29T17:20:50Z",
       "created_at": "2021-10-23T19:25:32Z",
       "size": 35930,
@@ -2206,11 +2263,11 @@
       "screenshots": [
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1650233795205/xWudUDZjZ.png?auto=compress,format&format=webp"
       ],
-      "stars": 592,
+      "stars": 593,
       "forks": 124,
-      "watchers": 592,
+      "watchers": 593,
       "issues": 11,
-      "last_updated": "2024-10-29T17:09:23Z",
+      "last_updated": "2024-11-02T14:19:37Z",
       "last_pushed": "2024-09-27T22:03:24Z",
       "created_at": "2016-08-29T06:20:42Z",
       "size": 912,
@@ -2233,11 +2290,11 @@
       "screenshots": [
         "https://www.illacloud.com/_next/image?url=https%3A%2F%2Fcdn.illacloud.com%2Fofficial-website%2Fimg%2Fhome%2FplayVideoCover.png&w=3840&q=75"
       ],
-      "stars": 11573,
-      "forks": 1104,
-      "watchers": 11573,
+      "stars": 11580,
+      "forks": 1105,
+      "watchers": 11580,
       "issues": 38,
-      "last_updated": "2024-11-01T14:25:41Z",
+      "last_updated": "2024-11-02T10:58:16Z",
       "last_pushed": "2024-09-22T08:25:46Z",
       "created_at": "2022-04-18T04:55:57Z",
       "size": 53754,
@@ -2274,36 +2331,6 @@
       "dirname": "chartmuseum"
     },
     {
-      "name": "Chibisafe",
-      "description": "Blazing fast file uploader and awesome bunker written in node!",
-      "tags": [
-        "fileuploader",
-        "lolisafe"
-      ],
-      "source": "https://github.com/chibisafe/chibisafe",
-      "website": "https://chibisafe.moe",
-      "icon": "https://avatars.githubusercontent.com/u/115422728?s=200&v=4",
-      "screenshots": [
-        "https://user-images.githubusercontent.com/7425261/245041422-659068cd-f154-4fe0-860f-4478e0f859d5.png",
-        "https://user-images.githubusercontent.com/7425261/245041448-83dae9d1-5f71-404a-b79c-19fb4d0dfd62.png",
-        "https://user-images.githubusercontent.com/7425261/245041459-0dad05a8-f42b-4834-983f-2ca82eedb176.png"
-      ],
-      "stars": 1812,
-      "forks": 270,
-      "watchers": 1812,
-      "issues": 36,
-      "last_updated": "2024-10-31T08:31:59Z",
-      "last_pushed": "2024-09-15T20:44:54Z",
-      "created_at": "2017-01-13T07:28:41Z",
-      "size": 14030,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "MIT License",
-      "spdx_id": "MIT",
-      "dirname": "chibisafe"
-    },
-    {
       "name": "Docker Registry UI",
       "description": "The simplest and most complete UI for your private registry",
       "tags": [
@@ -2313,11 +2340,11 @@
       "website": "https://joxit.dev/docker-registry-ui/",
       "icon": "https://avatars.githubusercontent.com/u/5429470?s=200&v=4",
       "screenshots": null,
-      "stars": 2546,
+      "stars": 2547,
       "forks": 322,
-      "watchers": 2546,
+      "watchers": 2547,
       "issues": 34,
-      "last_updated": "2024-11-01T02:44:05Z",
+      "last_updated": "2024-11-01T16:48:51Z",
       "last_pushed": "2024-09-13T18:06:25Z",
       "created_at": "2016-04-09T19:40:26Z",
       "size": 14118,
@@ -2372,11 +2399,11 @@
         "https://raw.githubusercontent.com/passbolt/passbolt_styleguide/master/src/img/screenshots/teaser-screenshot-share.png",
         "https://raw.githubusercontent.com/passbolt/passbolt_styleguide/master/src/img/screenshots/teaser-screenshot4.png"
       ],
-      "stars": 4687,
+      "stars": 4688,
       "forks": 312,
-      "watchers": 4687,
+      "watchers": 4688,
       "issues": 19,
-      "last_updated": "2024-11-01T14:10:49Z",
+      "last_updated": "2024-11-02T12:30:57Z",
       "last_pushed": "2024-08-14T09:53:25Z",
       "created_at": "2016-02-23T01:14:59Z",
       "size": 149448,
@@ -2454,11 +2481,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/wiki/zadam/trilium/images/screenshot.png"
       ],
-      "stars": 27272,
-      "forks": 1908,
-      "watchers": 27272,
+      "stars": 27278,
+      "forks": 1909,
+      "watchers": 27278,
       "issues": 896,
-      "last_updated": "2024-11-01T14:51:34Z",
+      "last_updated": "2024-11-02T14:17:39Z",
       "last_pushed": "2024-08-08T21:39:01Z",
       "created_at": "2017-05-23T00:30:20Z",
       "size": 134395,
@@ -2481,11 +2508,11 @@
       "screenshots": [
         "https://camo.githubusercontent.com/2e6247a73a3ef41ee0884415c6ec63c9caa4d9dc8fdb4a8ecf64342b00a29a0f/68747470733a2f2f7374617470696e672d6e672e6769746875622e696f2f6173736574732f65787465726e616c2f736c61636b2d6e6f74696665722e706e67"
       ],
-      "stars": 1472,
+      "stars": 1473,
       "forks": 153,
-      "watchers": 1472,
+      "watchers": 1473,
       "issues": 172,
-      "last_updated": "2024-11-01T04:17:37Z",
+      "last_updated": "2024-11-02T11:01:36Z",
       "last_pushed": "2024-06-20T14:07:24Z",
       "created_at": "2021-07-08T10:50:00Z",
       "size": 29619,

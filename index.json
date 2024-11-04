@@ -1,6 +1,63 @@
 {
   "services": [
     {
+      "name": "Rocket.Chat",
+      "description": "Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.",
+      "tags": [
+        "communications"
+      ],
+      "source": "https://github.com/RocketChat/Rocket.Chat",
+      "website": "https://rocket.chat/",
+      "icon": "https://avatars.githubusercontent.com/u/12508788?s=200&v=4",
+      "screenshots": [
+        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/6464d93d33af48db33864025_Team%20Collab.webp",
+        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/615d85d3d3ae5682e8571dfb_Group%203924%20(1).png"
+      ],
+      "stars": 40485,
+      "forks": 10545,
+      "watchers": 40485,
+      "issues": 3109,
+      "last_updated": "2024-11-04T12:59:35Z",
+      "last_pushed": "2024-11-04T13:13:13Z",
+      "created_at": "2015-05-19T07:36:09Z",
+      "size": 1048045,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "rocketchat"
+    },
+    {
+      "name": "n8n",
+      "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
+      "tags": [
+        "workflow",
+        "automation"
+      ],
+      "source": "https://github.com/n8n-io/n8n",
+      "website": "https://n8n.io",
+      "icon": "https://avatars.githubusercontent.com/u/45487711?s=200&v=4",
+      "screenshots": [
+        "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
+        "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
+      ],
+      "stars": 48189,
+      "forks": 7460,
+      "watchers": 48189,
+      "issues": 440,
+      "last_updated": "2024-11-04T13:06:06Z",
+      "last_pushed": "2024-11-04T13:09:33Z",
+      "created_at": "2019-06-22T09:24:21Z",
+      "size": 176653,
+      "language": "TypeScript",
+      "gitops": false,
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "n8n"
+    },
+    {
       "name": "Unleash",
       "description": "Unleash is an open source feature management solution.",
       "tags": [
@@ -15,7 +72,7 @@
       "stars": 11349,
       "forks": 710,
       "watchers": 11349,
-      "issues": 49,
+      "issues": 50,
       "last_updated": "2024-11-04T13:01:38Z",
       "last_pushed": "2024-11-04T13:08:42Z",
       "created_at": "2014-09-29T12:50:46Z",
@@ -87,35 +144,6 @@
       "dirname": "wordpress"
     },
     {
-      "name": "n8n",
-      "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
-      "tags": [
-        "workflow",
-        "automation"
-      ],
-      "source": "https://github.com/n8n-io/n8n",
-      "website": "https://n8n.io",
-      "icon": "https://avatars.githubusercontent.com/u/45487711?s=200&v=4",
-      "screenshots": [
-        "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
-        "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
-      ],
-      "stars": 48189,
-      "forks": 7460,
-      "watchers": 48189,
-      "issues": 440,
-      "last_updated": "2024-11-04T13:06:06Z",
-      "last_pushed": "2024-11-04T13:06:03Z",
-      "created_at": "2019-06-22T09:24:21Z",
-      "size": 176653,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "n8n"
-    },
-    {
       "name": "Activepieces",
       "description": "Your friendliest open source all-in-one automation tool \u2728 Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative",
       "tags": [
@@ -137,7 +165,7 @@
       "last_updated": "2024-11-04T12:49:29Z",
       "last_pushed": "2024-11-04T13:01:57Z",
       "created_at": "2022-12-03T02:52:46Z",
-      "size": 198362,
+      "size": 198383,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
@@ -176,34 +204,6 @@
       "dirname": "affine"
     },
     {
-      "name": "Rocket.Chat",
-      "description": "Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.",
-      "tags": [
-        "communications"
-      ],
-      "source": "https://github.com/RocketChat/Rocket.Chat",
-      "website": "https://rocket.chat/",
-      "icon": "https://avatars.githubusercontent.com/u/12508788?s=200&v=4",
-      "screenshots": [
-        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/6464d93d33af48db33864025_Team%20Collab.webp",
-        "https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/615d85d3d3ae5682e8571dfb_Group%203924%20(1).png"
-      ],
-      "stars": 40485,
-      "forks": 10545,
-      "watchers": 40485,
-      "issues": 3109,
-      "last_updated": "2024-11-04T12:59:35Z",
-      "last_pushed": "2024-11-04T13:01:36Z",
-      "created_at": "2015-05-19T07:36:09Z",
-      "size": 1048045,
-      "language": "TypeScript",
-      "gitops": false,
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "rocketchat"
-    },
-    {
       "name": "NocoDB",
       "description": "The Open Source Airtable Alternative. Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.",
       "tags": [
@@ -231,7 +231,7 @@
       "last_updated": "2024-11-04T11:12:08Z",
       "last_pushed": "2024-11-04T12:59:39Z",
       "created_at": "2017-10-29T18:51:48Z",
-      "size": 1219371,
+      "size": 1219364,
       "language": "TypeScript",
       "gitops": false,
       "status": "active",
@@ -253,7 +253,7 @@
       "stars": 29780,
       "forks": 9468,
       "watchers": 29780,
-      "issues": 850,
+      "issues": 848,
       "last_updated": "2024-11-04T11:36:38Z",
       "last_pushed": "2024-11-04T12:49:34Z",
       "created_at": "2010-01-04T14:21:21Z",
@@ -420,11 +420,11 @@
       "screenshots": [
         "https://images.ctfassets.net/lpvian6u6i39/57xRxbPxLB5Rx6YYCQstyW/d605683e09640cabbb15e9a9d65dc03d/img-cta.png"
       ],
-      "stars": 34348,
+      "stars": 34349,
       "forks": 3720,
-      "watchers": 34348,
+      "watchers": 34349,
       "issues": 3852,
-      "last_updated": "2024-11-04T12:57:40Z",
+      "last_updated": "2024-11-04T13:11:26Z",
       "last_pushed": "2024-11-04T12:30:03Z",
       "created_at": "2020-06-30T04:07:36Z",
       "size": 738216,
@@ -447,11 +447,11 @@
       "screenshots": [
         "https://usememos.com/demo.webp"
       ],
-      "stars": 33564,
+      "stars": 33565,
       "forks": 2433,
-      "watchers": 33564,
+      "watchers": 33565,
       "issues": 34,
-      "last_updated": "2024-11-04T12:39:47Z",
+      "last_updated": "2024-11-04T13:09:32Z",
       "last_pushed": "2024-11-04T12:04:20Z",
       "created_at": "2021-12-08T15:30:18Z",
       "size": 32859,
@@ -952,11 +952,11 @@
       "screenshots": [
         "https://github.com/gotify/server/raw/master/ui.png"
       ],
-      "stars": 11381,
+      "stars": 11382,
       "forks": 633,
-      "watchers": 11381,
+      "watchers": 11382,
       "issues": 61,
-      "last_updated": "2024-11-04T10:33:34Z",
+      "last_updated": "2024-11-04T13:11:31Z",
       "last_pushed": "2024-11-03T22:47:16Z",
       "created_at": "2018-01-15T20:25:27Z",
       "size": 3494,
@@ -1230,11 +1230,11 @@
       "screenshots": [
         "https://i.ibb.co/L8YbNNc/dashy-demo2.gif"
       ],
-      "stars": 17621,
+      "stars": 17622,
       "forks": 1342,
-      "watchers": 17621,
+      "watchers": 17622,
       "issues": 107,
-      "last_updated": "2024-11-04T11:35:04Z",
+      "last_updated": "2024-11-04T13:12:04Z",
       "last_pushed": "2024-11-03T01:29:07Z",
       "created_at": "2021-02-28T10:35:44Z",
       "size": 800184,
@@ -1283,11 +1283,11 @@
       "website": "https://github.com/dani-garcia/vaultwarden",
       "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg",
       "screenshots": null,
-      "stars": 38585,
+      "stars": 38586,
       "forks": 1874,
-      "watchers": 38585,
+      "watchers": 38586,
       "issues": 14,
-      "last_updated": "2024-11-04T12:16:11Z",
+      "last_updated": "2024-11-04T13:12:06Z",
       "last_pushed": "2024-11-02T21:20:10Z",
       "created_at": "2018-02-17T22:40:20Z",
       "size": 9755,
@@ -1450,6 +1450,7 @@
         "development"
       ],
       "source": "https://github.com/coder/code-server",
+      "icon": "https://avatars.githubusercontent.com/u/95932066?s=200&v=4",
       "website": "https://coder.com",
       "screenshots": [
         "https://github.com/coder/code-server/raw/main/docs/assets/screenshot-1.png"

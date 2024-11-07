@@ -68,7 +68,7 @@ for dirname in os.listdir(basedir):
                     content["size"] = apiData.get("size")
                     content["language"] = apiData.get("language")
                     content["gitops"] = gitops
-                    content["url"] = baseURL + dirname + ".yaml"
+                    content["template"] = baseURL + dirname + ".yaml"
 
                     # calculate date since last update
                     days = (datetime.now() - datetime.strptime(content["last_updated"], "%Y-%m-%dT%H:%M:%SZ")).days

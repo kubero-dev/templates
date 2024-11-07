@@ -7,6 +7,7 @@ from datetime import datetime
 
 # create a new file called index.yaml
 basedir = "kubero/services"
+baseURL = "https://raw.githubusercontent.com/kubero-dev/kubero/main/templates/"
 
 data = {
     "services": []
@@ -67,6 +68,7 @@ for dirname in os.listdir(basedir):
                     content["size"] = apiData.get("size")
                     content["language"] = apiData.get("language")
                     content["gitops"] = gitops
+                    content["url"] = baseURL + dirname + ".yaml"
 
                     # calculate date since last update
                     days = (datetime.now() - datetime.strptime(content["last_updated"], "%Y-%m-%dT%H:%M:%SZ")).days
@@ -96,6 +98,10 @@ for dirname in os.listdir(basedir):
             data.get("services").append(content)
     #print(data)
     #exit(1)
+
+    if totalTemplates % 10 == 0:
+        print("more than ", totalTemplates, " templates")
+        #break
 
 print("Total Templates: ", totalTemplates)
 

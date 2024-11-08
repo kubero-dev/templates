@@ -52,7 +52,4 @@ for dirname in os.listdir(basedir):
             templateYaml = yaml.dump(template, default_style=None, default_flow_style=False)
             templateFile.write(templateYaml.replace("\n\n", "\n"))
 
-        os.remove(apppath)
-        os.symlink("kubero/templates/"+dirname+".yaml", apppath)
-
 exit(0)

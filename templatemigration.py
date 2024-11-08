@@ -54,4 +54,7 @@ for dirname in os.listdir(basedir):
             templateYaml = yaml.dump(template, default_style=None, default_flow_style=False)
             templateFile.write(templateYaml.replace("\n\n", "\n"))
 
+        # remove the old service.yaml file
+        #os.remove(filepath)
+
 exit(0)

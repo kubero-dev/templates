@@ -5,9 +5,8 @@ import json
 import requests
 from datetime import datetime
 
-# create a new file called index.yaml
+# create a new file called index.json
 basedir = "kubero/services"
-baseURL = "https://raw.githubusercontent.com/kubero-dev/kubero/main/templates/"
 
 data = {
     "services": []
@@ -24,7 +23,7 @@ for dirname in os.listdir(basedir):
     apppath = os.path.join(dir, "app.yaml")
     # check if app.yaml exists in the directory
     if os.path.isfile(filepath) and os.path.isfile(apppath):
-        print (filepath)
+        print (apppath)
         totalTemplates += 1
 
         with open(apppath, "r") as app_yaml:
@@ -68,7 +67,8 @@ for dirname in os.listdir(basedir):
                     content["size"] = apiData.get("size")
                     content["language"] = apiData.get("language")
                     content["gitops"] = gitops
-                    content["template"] = baseURL + dirname + ".yaml"
+                    #content["template"] = "https://raw.githubusercontent.com/kubero-dev/kubero/main/templates/" + dirname + ".yaml" # ready for dir migration
+                    content["template"] = "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/" + dirname + "/app.yaml"
 
                     # calculate date since last update
                     days = (datetime.now() - datetime.strptime(content["last_updated"], "%Y-%m-%dT%H:%M:%SZ")).days

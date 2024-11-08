@@ -47,8 +47,10 @@ for dirname in os.listdir(basedir):
         template["metadata"]["annotations"]['kubero.dev/template.screenshots'] = toJson(service.get("screenshots", []))
         template["metadata"]["annotations"]['kubero.dev/template.links'] = toJson(service.get("documentation", []))
 
-        open("kubero/templates/"+dirname+".yaml", "w+")
-        with open("kubero/templates/"+dirname+".yaml", "a+") as templateFile:
+        #file = "kubero/templates/"+dirname+".yaml" # ready for dir migration
+        file = "kubero/services/"+dirname+"/app.yaml"
+        open(file, "w+")
+        with open(file, "a+") as templateFile:
             templateYaml = yaml.dump(template, default_style=None, default_flow_style=False)
             templateFile.write(templateYaml.replace("\n\n", "\n"))
 

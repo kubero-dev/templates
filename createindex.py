@@ -49,11 +49,7 @@ for dirname in os.listdir(basedir):
             }
 
         # check if basic values are present
-        if content["source"] is None or content["source"] == "" or 
-            content["name"] is None or content["name"] == "" or
-            content["description"] is None or content["description"] == "" or
-            content["icon"] is None or content["icon"] == "" or
-            content["website"] is None or content["website"] == "":
+        if content["source"] is None or content["source"] == "" or content["name"] is None or content["name"] == "" or content["description"] is None or content["description"] == "" or content["icon"] is None or content["icon"] == "" or content["website"] is None or content["website"] == "":
             print("Missing required field in : ", dirname)
             continue
         

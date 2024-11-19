@@ -35,6 +35,11 @@ for dirname in os.listdir(basedir):
             if app.get('spec').get('deploymentstrategy') == 'git':
                 gitops = True
 
+            addons = []
+
+            for addon in app.get("spec").get("addons"):
+                addons.append(addon.get("kind"))
+
             content = {
                 "name": app.get("metadata").get("name"),
                 "description": app.get("metadata").get("annotations").get("kubero.dev/template.description"),
@@ -46,6 +51,7 @@ for dirname in os.listdir(basedir):
                 "tags": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.tags")),
                 "screenshots": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.screenshots")),
                 "links": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.links")),
+                "addons": addons,
             }
 
         # check if basic values are present

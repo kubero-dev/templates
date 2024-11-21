@@ -10,7 +10,8 @@ jobs:
     steps:
       - name: 'Checkout'
         uses: actions/checkout@master
-        submodules: 'true'
+        with:
+          submodules: 'true'
       - name: 'Publish'
         run: |
           ./publish.sh

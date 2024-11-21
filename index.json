@@ -1,6 +1,147 @@
 {
   "services": [
     {
+      "name": "n8n",
+      "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
+      "source": "https://github.com/n8n-io/n8n",
+      "icon": "https://avatars.githubusercontent.com/u/45487711?s=200&v=4",
+      "website": "https://n8n.io",
+      "installation": "",
+      "architecture": [],
+      "tags": [
+        "workflow",
+        "automation"
+      ],
+      "screenshots": [
+        "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
+        "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
+      ],
+      "links": [],
+      "addons": [
+        "KuberoPostgresql"
+      ],
+      "stars": 49206,
+      "forks": 7865,
+      "watchers": 49206,
+      "issues": 461,
+      "last_updated": "2024-11-21T15:41:54Z",
+      "last_pushed": "2024-11-21T15:41:51Z",
+      "created_at": "2019-06-22T09:24:21Z",
+      "size": 177456,
+      "language": "TypeScript",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/n8n/app.yaml",
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "n8n"
+    },
+    {
+      "name": "languagetool",
+      "description": "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages.",
+      "source": "https://github.com/languagetool-org/languagetool",
+      "icon": "https://avatars.githubusercontent.com/u/5187764?s=200&v=4",
+      "website": "https://languagetool.org/",
+      "installation": "",
+      "architecture": [],
+      "tags": [
+        "spellcheck",
+        "grammar"
+      ],
+      "screenshots": [
+        "https://languagetool.org/videos/gmail_de_en.mp4"
+      ],
+      "links": [
+        "https://github.com/Erikvl87/docker-languagetool/blob/master/docker-compose.yml"
+      ],
+      "addons": [],
+      "stars": 12445,
+      "forks": 1399,
+      "watchers": 12445,
+      "issues": 1979,
+      "last_updated": "2024-11-21T15:41:34Z",
+      "last_pushed": "2024-11-21T15:41:27Z",
+      "created_at": "2013-08-08T16:37:22Z",
+      "size": 5678885,
+      "language": "Java",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/languagetool/app.yaml",
+      "status": "active",
+      "license": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "dirname": "languagetool"
+    },
+    {
+      "name": "activepieces",
+      "description": "Your friendliest open source all-in-one automation tool \u2728 Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative",
+      "source": "https://github.com/activepieces/activepieces",
+      "icon": "https://avatars.githubusercontent.com/u/99494700?s=200&v=4",
+      "website": "https://www.activepieces.com/",
+      "installation": "",
+      "architecture": [],
+      "tags": [
+        "Workflow",
+        "Automation",
+        "low-code",
+        "no-code"
+      ],
+      "screenshots": [
+        "https://github.com/activepieces/activepieces/assets/1812998/e75616ce-7801-45b7-b3fa-eba778bebde3"
+      ],
+      "links": [],
+      "addons": [
+        "KuberoPostgresql",
+        "KuberoRedis"
+      ],
+      "stars": 10006,
+      "forks": 1232,
+      "watchers": 10006,
+      "issues": 144,
+      "last_updated": "2024-11-21T15:07:26Z",
+      "last_pushed": "2024-11-21T15:41:26Z",
+      "created_at": "2022-12-03T02:52:46Z",
+      "size": 207173,
+      "language": "TypeScript",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/activepieces/app.yaml",
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "activepieces"
+    },
+    {
+      "name": "nats",
+      "description": "Connective Technology for Adaptive Edge & Distributed Systems",
+      "source": "https://github.com/nats-io/nats-server",
+      "icon": "https://avatars.githubusercontent.com/u/10203055?s=200&v=4",
+      "website": "https://nats.io",
+      "installation": "",
+      "architecture": [],
+      "tags": [
+        "network",
+        "pubsub",
+        "microservices"
+      ],
+      "screenshots": [],
+      "links": [],
+      "addons": [],
+      "stars": 16001,
+      "forks": 1408,
+      "watchers": 16001,
+      "issues": 386,
+      "last_updated": "2024-11-21T12:19:10Z",
+      "last_pushed": "2024-11-21T15:40:54Z",
+      "created_at": "2012-10-29T16:12:24Z",
+      "size": 41255,
+      "language": "Go",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/nats/app.yaml",
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "nats"
+    },
+    {
       "name": "ghost",
       "description": "Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content.",
       "source": "https://github.com/TryGhost/Ghost",
@@ -35,42 +176,6 @@
       "license": "MIT License",
       "spdx_id": "MIT",
       "dirname": "ghost"
-    },
-    {
-      "name": "n8n",
-      "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
-      "source": "https://github.com/n8n-io/n8n",
-      "icon": "https://avatars.githubusercontent.com/u/45487711?s=200&v=4",
-      "website": "https://n8n.io",
-      "installation": "",
-      "architecture": [],
-      "tags": [
-        "workflow",
-        "automation"
-      ],
-      "screenshots": [
-        "https://camo.githubusercontent.com/9a0a5cdb7d4805104de24a4626a015cdc4ed26062b9fb5f6beda2a8b6d5c68c2/68747470733a2f2f6e386e696f73746f726167656163636f756e742e626c6f622e636f72652e77696e646f77732e6e65742f6e386e696f2d7374726170692d626c6f62732d70726f642f6173736574732f6769746875625f73637265656e5f325f383631353532333463332e706e67",
-        "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"
-      ],
-      "links": [],
-      "addons": [
-        "KuberoPostgresql"
-      ],
-      "stars": 49206,
-      "forks": 7865,
-      "watchers": 49206,
-      "issues": 463,
-      "last_updated": "2024-11-21T15:30:45Z",
-      "last_pushed": "2024-11-21T15:38:38Z",
-      "created_at": "2019-06-22T09:24:21Z",
-      "size": 177456,
-      "language": "TypeScript",
-      "gitops": false,
-      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/n8n/app.yaml",
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "n8n"
     },
     {
       "name": "meilisearch",
@@ -155,11 +260,11 @@
       ],
       "links": [],
       "addons": [],
-      "stars": 85845,
+      "stars": 85846,
       "forks": 8120,
-      "watchers": 85845,
+      "watchers": 85846,
       "issues": 1945,
-      "last_updated": "2024-11-21T15:32:26Z",
+      "last_updated": "2024-11-21T15:42:00Z",
       "last_pushed": "2024-11-21T15:36:12Z",
       "created_at": "2020-01-02T01:04:43Z",
       "size": 88793,
@@ -574,44 +679,6 @@
       "dirname": "sterlingpdf"
     },
     {
-      "name": "activepieces",
-      "description": "Your friendliest open source all-in-one automation tool \u2728 Workflow automation tool 100+ integration / Enterprise automation tool / Zapier Alternative",
-      "source": "https://github.com/activepieces/activepieces",
-      "icon": "https://avatars.githubusercontent.com/u/99494700?s=200&v=4",
-      "website": "https://www.activepieces.com/",
-      "installation": "",
-      "architecture": [],
-      "tags": [
-        "Workflow",
-        "Automation",
-        "low-code",
-        "no-code"
-      ],
-      "screenshots": [
-        "https://github.com/activepieces/activepieces/assets/1812998/e75616ce-7801-45b7-b3fa-eba778bebde3"
-      ],
-      "links": [],
-      "addons": [
-        "KuberoPostgresql",
-        "KuberoRedis"
-      ],
-      "stars": 10006,
-      "forks": 1232,
-      "watchers": 10006,
-      "issues": 145,
-      "last_updated": "2024-11-21T15:07:26Z",
-      "last_pushed": "2024-11-21T14:44:44Z",
-      "created_at": "2022-12-03T02:52:46Z",
-      "size": 207173,
-      "language": "TypeScript",
-      "gitops": false,
-      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/activepieces/app.yaml",
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "activepieces"
-    },
-    {
       "name": "unleash",
       "description": "Unleash is an open source feature management solution.",
       "source": "https://github.com/Unleash/unleash",
@@ -902,38 +969,6 @@
       "dirname": "casdoor"
     },
     {
-      "name": "nats",
-      "description": "Connective Technology for Adaptive Edge & Distributed Systems",
-      "source": "https://github.com/nats-io/nats-server",
-      "icon": "https://avatars.githubusercontent.com/u/10203055?s=200&v=4",
-      "website": "https://nats.io",
-      "installation": "",
-      "architecture": [],
-      "tags": [
-        "network",
-        "pubsub",
-        "microservices"
-      ],
-      "screenshots": [],
-      "links": [],
-      "addons": [],
-      "stars": 16001,
-      "forks": 1408,
-      "watchers": 16001,
-      "issues": 386,
-      "last_updated": "2024-11-21T12:19:10Z",
-      "last_pushed": "2024-11-21T12:19:06Z",
-      "created_at": "2012-10-29T16:12:24Z",
-      "size": 41255,
-      "language": "Go",
-      "gitops": false,
-      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/nats/app.yaml",
-      "status": "active",
-      "license": "Apache License 2.0",
-      "spdx_id": "Apache-2.0",
-      "dirname": "nats"
-    },
-    {
       "name": "passbolt",
       "description": "The open source password manager for teams",
       "source": "https://github.com/passbolt/passbolt_api",
@@ -1058,11 +1093,11 @@
       ],
       "links": [],
       "addons": [],
-      "stars": 9936,
+      "stars": 9937,
       "forks": 507,
-      "watchers": 9936,
+      "watchers": 9937,
       "issues": 48,
-      "last_updated": "2024-11-21T15:13:38Z",
+      "last_updated": "2024-11-21T15:41:49Z",
       "last_pushed": "2024-11-21T11:44:32Z",
       "created_at": "2024-08-05T07:19:19Z",
       "size": 44147,
@@ -1170,41 +1205,6 @@
       "dirname": "photoview"
     },
     {
-      "name": "languagetool",
-      "description": "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages.",
-      "source": "https://github.com/languagetool-org/languagetool",
-      "icon": "https://avatars.githubusercontent.com/u/5187764?s=200&v=4",
-      "website": "https://languagetool.org/",
-      "installation": "",
-      "architecture": [],
-      "tags": [
-        "spellcheck",
-        "grammar"
-      ],
-      "screenshots": [
-        "https://languagetool.org/videos/gmail_de_en.mp4"
-      ],
-      "links": [
-        "https://github.com/Erikvl87/docker-languagetool/blob/master/docker-compose.yml"
-      ],
-      "addons": [],
-      "stars": 12445,
-      "forks": 1399,
-      "watchers": 12445,
-      "issues": 1979,
-      "last_updated": "2024-11-21T14:59:54Z",
-      "last_pushed": "2024-11-21T09:43:18Z",
-      "created_at": "2013-08-08T16:37:22Z",
-      "size": 5678885,
-      "language": "Java",
-      "gitops": false,
-      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/languagetool/app.yaml",
-      "status": "active",
-      "license": "GNU Lesser General Public License v2.1",
-      "spdx_id": "LGPL-2.1",
-      "dirname": "languagetool"
-    },
-    {
       "name": "changedetection",
       "description": "A self-hosted free open source website change detection, monitor and notification service.",
       "source": "https://github.com/dgtlmoon/changedetection.io",
@@ -1287,11 +1287,11 @@
       ],
       "links": [],
       "addons": [],
-      "stars": 6475,
+      "stars": 6476,
       "forks": 431,
-      "watchers": 6475,
+      "watchers": 6476,
       "issues": 181,
-      "last_updated": "2024-11-21T15:30:24Z",
+      "last_updated": "2024-11-21T15:40:44Z",
       "last_pushed": "2024-11-21T06:08:37Z",
       "created_at": "2019-09-04T02:35:40Z",
       "size": 33877,
@@ -1356,11 +1356,11 @@
       "screenshots": null,
       "links": [],
       "addons": [],
-      "stars": 39214,
+      "stars": 39215,
       "forks": 1899,
-      "watchers": 39214,
+      "watchers": 39215,
       "issues": 13,
-      "last_updated": "2024-11-21T15:39:24Z",
+      "last_updated": "2024-11-21T15:40:46Z",
       "last_pushed": "2024-11-21T00:17:59Z",
       "created_at": "2018-02-17T22:40:20Z",
       "size": 9635,
@@ -1723,11 +1723,11 @@
         "KuberoPostgresql",
         "KuberoRedis"
       ],
-      "stars": 10224,
+      "stars": 10225,
       "forks": 2242,
-      "watchers": 10224,
+      "watchers": 10225,
       "issues": 66,
-      "last_updated": "2024-11-21T15:35:30Z",
+      "last_updated": "2024-11-21T15:42:06Z",
       "last_pushed": "2024-11-20T10:08:20Z",
       "created_at": "2023-07-08T17:24:22Z",
       "size": 26426,

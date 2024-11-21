@@ -1,0 +1,16 @@
+name: 'Update Index'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 10 * * *'
+jobs:
+  update_index:
+    name: 'Update Index'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@master
+        submodules: 'true'
+      - name: 'Publish'
+        run: |
+          ./publish.sh

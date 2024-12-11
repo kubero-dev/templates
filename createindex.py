@@ -177,7 +177,7 @@ templatesList = '''
 |---|---|---|---|
 '''
 for template in data["services"]:
-    templatesList += "| <img src='" + template["icon"] + "' width='30px'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["spdx_id"] + " |\n"
+    templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["spdx_id"] + " |\n"
 
 ## use regex to replace the addons list in README.md
 readme = open("README.md", "r")

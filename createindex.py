@@ -3,6 +3,7 @@ import os
 import yaml
 import json
 import requests
+import re
 from datetime import datetime
 
 # create a new file called index.json
@@ -15,6 +16,7 @@ data = {
 GH_Token = os.environ.get("GH_TOKEN")
 
 totalTemplates = 0
+limit = 1000
 
 # find all directories in the current directory and iterate over them
 for dirname in os.listdir(basedir):
@@ -22,7 +24,11 @@ for dirname in os.listdir(basedir):
     apppath = os.path.join(dir, "app.yaml")
     # check if app.yaml exists in the directory
     if os.path.isfile(apppath):
+        if totalTemplates > limit:
+            break
+
         print ("Processing: ", dirname)
+
         totalTemplates += 1
 
         with open(apppath, "r") as app_yaml:
@@ -122,6 +128,67 @@ print("Total Templates: ", totalTemplates)
 
 # sort data by last_pushed
 data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reverse=True)
+
+# find all tags and make them unique
+tags = []
+for service in data["services"]:
+    for tag in service["tags"]:
+        if tag not in tags:
+            tags.append(tag)
+
+## count how many times a tag is used
+tagcount = {}
+for tag in tags:
+    tagcount[tag] = 0
+
+for service in data["services"]:
+    for tag in service["tags"]:
+        tagcount[tag] += 1
+        
+#for service in data["services"]:
+#        if tagcount[tag] < 2:
+#    for tag in service["tags"]:
+#            tags.remove(tag)
+    
+# sort tags
+tags = sorted(tags)
+data["tags"] = tags
+data["tagcount"] = tagcount
+
+# create some stats for the index
+data["stats"] = {
+    "total": totalTemplates,
+    "tags": len(tags),
+    "gitops": 0,
+    "stars": 0,
+}
+
+for service in data["services"]:
+    if service["gitops"]:
+        data["stats"]["gitops"] += 1
+    data["stats"]["stars"] += service["stars"]
+
+# Create a list of all templates and update the list in README.md
+templatesList = '''
+
+### Available Templates (''' + str(totalTemplates) + ''')
+
+| Icon | Name | Stars | License |
+|---|---|---|---|
+'''
+for template in data["services"]:
+    templatesList += "| <img src='" + template["icon"] + "' width='30px'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["spdx_id"] + " |\n"
+
+## use regex to replace the addons list in README.md
+readme = open("README.md", "r")
+readmeContent = readme.read()
+readme.close()
+
+readmeContent = re.sub(r'<!-- ADDONS_LIST_START -->.*<!-- ADDONS_LIST_END -->', '<!-- ADDONS_LIST_START -->\n' + templatesList + '<!-- ADDONS_LIST_END -->', readmeContent, flags=re.DOTALL)
+
+readme = open("README.md", "w")
+readme.write(readmeContent)
+readme.close()
 
 open("index.json", "w+")
 with open("index.json", "a+") as index_json:

@@ -169,6 +169,12 @@ for service in data["services"]:
     data["stats"]["stars"] += service["stars"]
 
 # Create a list of all templates and update the list in README.md
+
+readmeTemplates = data["services"]
+
+## sort templates alphabetically
+readmeTemplates = sorted(readmeTemplates, key=lambda k: k['name'])
+
 templatesList = '''
 
 ### Available Templates (''' + str(totalTemplates) + ''')
@@ -176,7 +182,7 @@ templatesList = '''
 | Icon | Name | Stars | License |
 |---|---|---|---|
 '''
-for template in data["services"]:
+for template in readmeTemplates:
     templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["spdx_id"] + " |\n"
 
 ## use regex to replace the addons list in README.md

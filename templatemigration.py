@@ -43,7 +43,7 @@ for dirname in os.listdir(basedir):
         template["metadata"]["annotations"]['kubero.dev/template.installation'] = service.get("installation", "")
 
         template["metadata"]["annotations"]['kubero.dev/template.architecture'] = toJson(service.get("architecture", []))
-        template["metadata"]["annotations"]['kubero.dev/template.tags'] = toJson(service.get("tags", []))
+        template["metadata"]["annotations"]['kubero.dev/template.categories'] = toJson(service.get("tags", []))
         template["metadata"]["annotations"]['kubero.dev/template.screenshots'] = toJson(service.get("screenshots", []))
         template["metadata"]["annotations"]['kubero.dev/template.links'] = toJson(service.get("documentation", []))
 

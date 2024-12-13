@@ -54,7 +54,7 @@ for dirname in os.listdir(basedir):
                 "website": app.get("metadata").get("annotations").get("kubero.dev/template.website"),
                 "installation": app.get("metadata").get("annotations").get("kubero.dev/template.installation"),
                 "architecture": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.architecture")),
-                "tags": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.tags")),
+                "categories": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.categories")),
                 "screenshots": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.screenshots")),
                 "links": json.loads(app.get("metadata").get("annotations").get("kubero.dev/template.links")),
                 "addons": addons,
@@ -129,36 +129,36 @@ print("Total Templates: ", totalTemplates)
 # sort data by last_pushed
 data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reverse=True)
 
-# find all tags and make them unique
-tags = []
+# find all categories and make them unique
+categories = []
 for service in data["services"]:
-    for tag in service["tags"]:
-        if tag not in tags:
-            tags.append(tag)
+    for category in service["categories"]:
+        if category not in categories:
+            categories.append(category)
 
-## count how many times a tag is used
-tagcount = {}
-for tag in tags:
-    tagcount[tag] = 0
+## count how many times a category is used
+categorycount = {}
+for category in categories:
+    categorycount[category] = 0
 
 for service in data["services"]:
-    for tag in service["tags"]:
-        tagcount[tag] += 1
+    for category in service["categories"]:
+        categorycount[category] += 1
         
 #for service in data["services"]:
-#        if tagcount[tag] < 2:
-#    for tag in service["tags"]:
-#            tags.remove(tag)
+#        if categoryount[category] < 2:
+#    for category in service["categories"]:
+#            categories.remove(category)
     
-# sort tags
-tags = sorted(tags)
-data["tags"] = tags
-data["tagcount"] = tagcount
+# sort categories
+categories = sorted(categories)
+data["categories"] = categories
+data["categorygcount"] = categorycount
 
 # create some stats for the index
 data["stats"] = {
     "total": totalTemplates,
-    "tags": len(tags),
+    "categories": len(categories),
     "gitops": 0,
     "stars": 0,
 }
@@ -179,11 +179,11 @@ templatesList = '''
 
 ### Available Templates (''' + str(totalTemplates) + ''')
 
-| Icon | Name | Stars | License |
+| Icon | Name | Stars | Description |
 |---|---|---|---|
 '''
 for template in readmeTemplates:
-    templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["spdx_id"] + " |\n"
+    templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["description"] + " |\n"
 
 ## use regex to replace the addons list in README.md
 readme = open("README.md", "r")

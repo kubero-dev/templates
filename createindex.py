@@ -151,9 +151,9 @@ for service in data["services"]:
 #            categories.remove(category)
     
 # sort categories
-categories = sorted(categories)
-data["categories"] = categories
-data["categorygcount"] = categorycount
+#categories = sorted(categories)
+#data["categories"] = categories
+data["categories"] = categorycount
 
 # create some stats for the index
 data["stats"] = {

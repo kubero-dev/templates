@@ -2182,7 +2182,7 @@
         "KuberoMysql"
       ],
       "stars": 47740,
-      "forks": 10430,
+      "forks": 10431,
       "watchers": 47740,
       "issues": 179,
       "last_updated": "2024-12-15T21:54:33Z",
@@ -2313,11 +2313,11 @@
       ],
       "links": [],
       "addons": [],
-      "stars": 20475,
+      "stars": 20476,
       "forks": 1118,
-      "watchers": 20475,
+      "watchers": 20476,
       "issues": 253,
-      "last_updated": "2024-12-15T22:34:54Z",
+      "last_updated": "2024-12-15T22:59:02Z",
       "last_pushed": "2024-12-13T10:21:39Z",
       "created_at": "2021-01-27T16:03:30Z",
       "size": 8591,
@@ -4238,6 +4238,6 @@
     "total": 124,
     "categories": 27,
     "gitops": 2,
-    "stars": 1847758
+    "stars": 1847759
   }
 }

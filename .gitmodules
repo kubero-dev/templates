@@ -1,3 +1,6 @@
 [submodule "kubero"]
 	path = kubero
 	url = git@github.com:kubero-dev/kubero.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:kubero-dev/docs.git

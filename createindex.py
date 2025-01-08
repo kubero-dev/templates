@@ -64,9 +64,14 @@ for dirname in os.listdir(basedir):
         if content["source"] is None or content["source"] == "" or content["name"] is None or content["name"] == "" or content["description"] is None or content["description"] == "" or content["icon"] is None or content["icon"] == "" or content["website"] is None or content["website"] == "":
             print("Missing required field in : ", dirname)
             continue
+
+        # remove trailing slash in source
+        if content["source"][-1] == "/":
+            content["source"] = content["source"][:-1]
         
         if content["source"].find("github.com") != -1:
             # replace url with api url
+
             apiURL = content["source"].replace("github.com", "api.github.com/repos")
             headers = {'Authorization': 'token ' + GH_Token}
 

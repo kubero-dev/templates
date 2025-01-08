@@ -192,7 +192,7 @@ templatesList = '''
 |---|---|---|---|
 '''
 for template in readmeTemplates:
-    templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template.get(["stars"], "?")) + " | " + template["description"] + " |\n"
+    templatesList += "| <img src='" + template["icon"] + "' width='30px' style='border-radius: 7px;'> | [" + template["name"] + "](" + template["source"] + ") | " + str(template["stars"]) + " | " + template["description"] + " |\n"
 
 ## use regex to replace the addons list in README.md
 readme = open("README.md", "r")

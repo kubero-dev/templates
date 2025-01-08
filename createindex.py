@@ -164,9 +164,13 @@ data["stats"] = {
 }
 
 for service in data["services"]:
-    if service["gitops"]:
-        data["stats"]["gitops"] += 1
-    data["stats"]["stars"] += service["stars"]
+    try
+        if service["gitops"]:
+            data["stats"]["gitops"] += 1
+        data["stats"]["stars"] += service["stars"]
+    except:
+        print("----> Stats Error in: ", service["name"])
+        pass
 
 # Create a list of all templates and update the list in README.md
 

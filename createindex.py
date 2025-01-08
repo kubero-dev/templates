@@ -164,7 +164,7 @@ data["stats"] = {
 }
 
 for service in data["services"]:
-    try
+    try:
         if service["gitops"]:
             data["stats"]["gitops"] += 1
         data["stats"]["stars"] += service["stars"]

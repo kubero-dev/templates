@@ -113,8 +113,8 @@ for dirname in os.listdir(basedir):
 
                 content["dirname"] = dirname
             except Exception as e:
+                print("----> Error in: ", dirname)
                 print("Error: ", e)
-                continue
 
         data.get("services").append(content)
     #print(data)

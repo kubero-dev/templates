@@ -22,7 +22,7 @@
       "watchers": 39506,
       "issues": 4318,
       "last_updated": "2025-01-16T22:05:41Z",
-      "last_pushed": "2025-01-16T22:05:10Z",
+      "last_pushed": "2025-01-16T22:08:17Z",
       "created_at": "2015-02-02T19:25:47Z",
       "size": 785777,
       "language": "Clojure",
@@ -32,6 +32,41 @@
       "license": "Other",
       "spdx_id": "NOASSERTION",
       "dirname": "metabase"
+    },
+    {
+      "name": "bitwarden",
+      "description": "Open source password management solutions for individuals, teams, and business organizations.",
+      "source": "https://github.com/bitwarden/server",
+      "icon": "https://avatars.githubusercontent.com/u/15990069?s=200&v=4",
+      "website": "https://bitwarden.com/",
+      "installation": "",
+      "architecture": [],
+      "categories": [
+        "security",
+        "utilities"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/apps-combo-logo.png"
+      ],
+      "links": [],
+      "addons": [
+        "KuberoPostgresql"
+      ],
+      "stars": 16004,
+      "forks": 1339,
+      "watchers": 16004,
+      "issues": 189,
+      "last_updated": "2025-01-16T20:27:51Z",
+      "last_pushed": "2025-01-16T22:07:54Z",
+      "created_at": "2015-11-23T23:45:33Z",
+      "size": 33696,
+      "language": "C#",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/bitwarden/app.yaml",
+      "status": "active",
+      "license": "Other",
+      "spdx_id": "NOASSERTION",
+      "dirname": "bitwarden"
     },
     {
       "name": "stirlingpdf",
@@ -1106,41 +1141,6 @@
       "license": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
       "dirname": "convertx"
-    },
-    {
-      "name": "bitwarden",
-      "description": "Open source password management solutions for individuals, teams, and business organizations.",
-      "source": "https://github.com/bitwarden/server",
-      "icon": "https://avatars.githubusercontent.com/u/15990069?s=200&v=4",
-      "website": "https://bitwarden.com/",
-      "installation": "",
-      "architecture": [],
-      "categories": [
-        "security",
-        "utilities"
-      ],
-      "screenshots": [
-        "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/apps-combo-logo.png"
-      ],
-      "links": [],
-      "addons": [
-        "KuberoPostgresql"
-      ],
-      "stars": 16004,
-      "forks": 1339,
-      "watchers": 16004,
-      "issues": 189,
-      "last_updated": "2025-01-16T20:27:51Z",
-      "last_pushed": "2025-01-16T20:28:08Z",
-      "created_at": "2015-11-23T23:45:33Z",
-      "size": 33696,
-      "language": "C#",
-      "gitops": false,
-      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/bitwarden/app.yaml",
-      "status": "active",
-      "license": "Other",
-      "spdx_id": "NOASSERTION",
-      "dirname": "bitwarden"
     },
     {
       "name": "leantime",
@@ -2823,11 +2823,11 @@
       ],
       "links": [],
       "addons": [],
-      "stars": 5368,
+      "stars": 5370,
       "forks": 164,
-      "watchers": 5368,
+      "watchers": 5370,
       "issues": 106,
-      "last_updated": "2025-01-16T21:59:07Z",
+      "last_updated": "2025-01-16T22:10:28Z",
       "last_pushed": "2025-01-15T01:31:55Z",
       "created_at": "2024-07-07T21:36:28Z",
       "size": 2652,
@@ -3264,7 +3264,7 @@
       "stars": 8385,
       "forks": 800,
       "watchers": 8385,
-      "issues": 317,
+      "issues": 318,
       "last_updated": "2025-01-16T20:40:11Z",
       "last_pushed": "2025-01-13T19:12:11Z",
       "created_at": "2019-08-30T20:35:36Z",
@@ -3307,6 +3307,42 @@
       "license": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
       "dirname": "vaultwarden"
+    },
+    {
+      "name": "neko",
+      "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
+      "source": "https://github.com/m1k1o/neko",
+      "icon": "https://raw.githubusercontent.com/m1k1o/neko/master/docs/_media/logo.png",
+      "website": "https://neko.m1k1o.net/",
+      "installation": "This app requires specials ports to be open on your cluster: 52000-52100/udp",
+      "architecture": [
+        "linux/amd64"
+      ],
+      "categories": [
+        "collaboration"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/m1k1o/neko/master/docs/_media/intro.gif"
+      ],
+      "links": [
+        "https://github.com/m1k1o/neko/blob/master/docker-compose.yaml"
+      ],
+      "addons": [],
+      "stars": 8340,
+      "forks": 609,
+      "watchers": 8340,
+      "issues": 129,
+      "last_updated": "2025-01-16T20:03:33Z",
+      "last_pushed": "2025-01-13T13:22:28Z",
+      "created_at": "2020-03-14T20:46:07Z",
+      "size": 89966,
+      "language": "Go",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/neko/app.yaml",
+      "status": "active",
+      "license": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "dirname": "neko"
     },
     {
       "name": "grav",
@@ -3791,7 +3827,7 @@
       "stars": 22946,
       "forks": 1221,
       "watchers": 22946,
-      "issues": 206,
+      "issues": 205,
       "last_updated": "2025-01-16T17:58:35Z",
       "last_pushed": "2025-01-09T00:20:50Z",
       "created_at": "2017-05-05T08:50:14Z",
@@ -4077,6 +4113,39 @@
       "license": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
       "dirname": "drawdb"
+    },
+    {
+      "name": "raneto",
+      "description": "Raneto - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.",
+      "source": "https://github.com/ryanlelek/Raneto",
+      "icon": "https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png",
+      "website": "http://raneto.com/",
+      "installation": "Raneto has not possibility to modify the content of the displayed pages. You will need sometheing like a git repository to manage the content in the mounted volume.",
+      "architecture": [],
+      "categories": [
+        "knowledgebase",
+        "cms"
+      ],
+      "screenshots": [],
+      "links": [
+        "https://docs.raneto.com/"
+      ],
+      "addons": [],
+      "stars": 2799,
+      "forks": 447,
+      "watchers": 2799,
+      "issues": 85,
+      "last_updated": "2025-01-15T08:55:30Z",
+      "last_pushed": "2025-01-03T03:40:30Z",
+      "created_at": "2014-05-30T10:24:18Z",
+      "size": 4063,
+      "language": "JavaScript",
+      "gitops": false,
+      "template": "https://raw.githubusercontent.com/kubero-dev/kubero/main/services/raneto/app.yaml",
+      "status": "active",
+      "license": "MIT License",
+      "spdx_id": "MIT",
+      "dirname": "raneto"
     },
     {
       "name": "presentator",
@@ -5151,11 +5220,11 @@
   "categories": {
     "data": 15,
     "work": 56,
-    "productivity": 20,
-    "utilities": 50,
     "security": 14,
+    "utilities": 50,
+    "productivity": 20,
     "database": 2,
-    "cms": 7,
+    "cms": 8,
     "api": 1,
     "monitoring": 11,
     "debug": 9,
@@ -5165,7 +5234,7 @@
     "development": 42,
     "communication": 11,
     "social": 4,
-    "collaboration": 13,
+    "collaboration": 14,
     "framework": 2,
     "ai": 5,
     "e-commerce": 2,
@@ -5183,14 +5252,15 @@
     "administration": 1,
     "web": 1,
     "utility": 2,
+    "knowledgebase": 1,
     "school": 1,
     "helpdesk": 1,
     "log": 1
   },
   "stats": {
-    "total": 151,
-    "categories": 37,
+    "total": 153,
+    "categories": 38,
     "gitops": 2,
-    "stars": 2226049
+    "stars": 2237190
   }
 }

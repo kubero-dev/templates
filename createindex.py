@@ -132,7 +132,7 @@ for dirname in os.listdir(basedir):
 print("Total Templates: ", totalTemplates)
 
 # sort data by last_pushed
-data["services"] = sorted(data["services"], key=lambda k: k['name'], reverse=True)
+data["services"] = sorted(data["services"], key=lambda k: k['last_pushed'], reverse=True)
 
 # find all categories and make them unique
 categories = []
@@ -182,7 +182,7 @@ for service in data["services"]:
 readmeTemplates = data["services"]
 
 ## sort templates alphabetically and reverse
-readmeTemplates = sorted(readmeTemplates, key=lambda k: k['name'], reverse=True)
+readmeTemplates = sorted(readmeTemplates, key=lambda k: k['name'], reverse=False)
 
 templatesList = '''
 

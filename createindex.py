@@ -181,8 +181,8 @@ for service in data["services"]:
 
 readmeTemplates = data["services"]
 
-## sort templates alphabetically
-readmeTemplates = sorted(readmeTemplates, key=lambda k: k['name'])
+## sort templates alphabetically and reverse
+readmeTemplates = sorted(readmeTemplates, key=lambda k: k['name'], reverse=True)
 
 templatesList = '''
 
